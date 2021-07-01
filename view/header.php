@@ -11,7 +11,7 @@ function callHead(string $title, string $css)
     <head>
         <title><?= $title ?></title>
 
-        <link rel="shortcut icon" href="images/icon-index.png">
+        <link rel="shortcut icon" href="assets/LGNC-Favicon.png">
 
         <meta name="image" property="og:image" content="https://dark-room.fr/images/index.JPG">
         <meta name="author" content="Jérémy Boulanger aka Jems Baker">

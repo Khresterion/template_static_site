@@ -120,6 +120,13 @@ section {
   color: #1f2937;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
+.container_section_2 .card {
+  transition: 1s;
+}
+
+.container_section_2 .card:hover {
+  transform: scale(0.9);
+}
 
 .container_section_2 {
   width: 100%;
@@ -182,6 +189,19 @@ svg {
   color: #1f2937;
 }
 
+.img-section-4 {
+  width: 200px;
+}
+
+.row_section_4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.row_section_4 .img-separator {
+}
+
 .one {
   display: flex;
   flex-direction: column;
@@ -200,6 +220,13 @@ svg {
 .one a:hover {
   letter-spacing: 0.1rem;
   transition-duration: 1s;
+}
+
+.pb-4 img {
+  transition: 0.7s;
+}
+.pb-4 img:hover {
+  transform: rotate(360deg) scale(1.5);
 }
 
 /* progress bars */

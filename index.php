@@ -7,9 +7,9 @@
 <?php callHeaderImage() ?>
 
 <section id="section1">
-  <div class="container container_section_1">
+  <div class="container container_section_1" data-aos="fade-up" data-aos-duration="1500">
     <div class="cheque-img">
-      <img src="assets/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <img src="assets/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim">
     </div>
     <div class="cheque-txt">
       <h2 class="cheque-title">Le chèque numérique</h2>
@@ -30,6 +30,7 @@
 <section id="section2">
   <div class="container container_section_2">
     <!-- <h3>Section Heading</h3> -->
+
     <div class="card" style="width: 18rem;">
       <img src="assets/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
       <div class="card-body">
@@ -39,6 +40,8 @@
         <a href="#" class="btn btn-outline-info">Lire l'article</a>
       </div>
     </div>
+
+
 
     <div class="card" style="width: 18rem;">
       <img src="assets/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
@@ -59,13 +62,13 @@
         <a href="#" class="btn btn-outline-info">Lire l'article</a>
       </div>
     </div>
-
   </div>
 </section>
 
 <section id="section3">
-  <h3 class='text-center mt-4'>Qui sommes-nous ?</h3>
-  <div class="container-fluid container_section_3">
+  <h3 class='text-center mt-4' data-aos="fade-up" data-aos-duration="1500">L'agence</h3>
+  <hr class="hr-1" data-aos="fade-up" data-aos-duration="1500">
+  <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="1500">
     <div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     </div>
@@ -173,14 +176,41 @@
 </svg>
 
 <section id="section4">
-  <div class="container container_section_4">
-    <h3 class="text-center">Section Heading</h3>
+
+  <div class="container container_section_4" data-aos="fade-up" data-aos-duration="1500">
+    <h3 class="text-center">élaborer maintenant la réussite de demain</h3>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+
+    <div class="row row_section_4 text-center">
+      <div class="pb-4">
+        <img src="assets/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
+        <figcaption class="figure-caption">Design</figcaption>
+      </div>
+      <div class="pb-4">
+        <img src="assets/AppJDPTel.png" alt="app" class="img-thumbnail img-section-4">
+        <figcaption class="figure-caption">Sites et applications web</figcaption>
+      </div>
+      <div class="pb-4">
+        <img src="assets/WebDesignIcon.png" alt="design" class="img-thumbnail img-section-4">
+        <figcaption class="figure-caption">Stratégie de contenu</figcaption>
+      </div>
+      <div class="pb-4">
+        <img src="assets/RollUpHome.png" alt="strategie" class="img-thumbnail img-section-4">
+        <figcaption class="figure-caption">Impressions tout support</figcaption>
+      </div>
+      <div class="pb-4">
+        <img src="assets/NetworkHome.png" alt="banding" class="img-thumbnail img-section-4">
+        <figcaption class="figure-caption">Branding</figcaption>
+      </div>
+
+    </div>
+
   </div>
+
 </section>
 
 <?php callFooter() ?>

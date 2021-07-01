@@ -176,7 +176,15 @@ body {
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  /* background: #ededed; */
+  background-image: radial-gradient(
+    circle,
+    #ededed,
+    #f1f1f1,
+    #f6f6f6,
+    #fafafa,
+    #ffffff
+  );
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -186,7 +194,26 @@ body {
 
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 
-  clip-path: polygon(0 0, 100% 0, 61% 100%, 0 88%);
+  /* clip-path: polygon(0 0, 100% 0, 61% 100%, 0 88%); */
+  clip-path: polygon(
+    0 0,
+    0 95%,
+    60% 100%,
+    100% 81%,
+    91% 73%,
+    95% 65%,
+    87% 58%,
+    100% 53%,
+    89% 46%,
+    96% 40%,
+    89% 33%,
+    97% 26%,
+    79% 25%,
+    86% 14%,
+    78% 11%,
+    88% 6%,
+    75% 0
+  );
 }
 
 #menu li {

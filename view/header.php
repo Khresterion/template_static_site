@@ -24,6 +24,7 @@ function callHead(string $title, string $css)
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" id="bootstrap-css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <link rel="stylesheet" href="style/common.css">
         <link rel="stylesheet" href=<?= $css ?>>
@@ -93,7 +94,7 @@ function callHeaderImage()
             <div class="overlay"></div>
             <div class="header-1"></div>
             <div class="hero">
-                <img src="https://logoncompany.com/wp-content/uploads/2019/11/LGNCLogoWhite.png" alt="logo">
+                <img src="https://logoncompany.com/wp-content/uploads/2019/11/LGNCLogoWhite.png" alt="logo" data-aos="zoom-out" data-aos-duration="3000">
                 <!-- <h1>Main Title</h1>         -->
                 <h3 class="mt-5">Expert en communication<br>
                     Saint-Brieuc & Rennes | Bretagne</h3>

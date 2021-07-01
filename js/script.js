@@ -1,3 +1,5 @@
+AOS.init();
+
 // SCROLL TO TOP
 $(function () {
   $(document).on("scroll", function () {

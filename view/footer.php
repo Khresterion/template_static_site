@@ -7,11 +7,27 @@ function callFooter()
     <!-- Wavy SVG applied to footer-bg -->
     <div class="footer-bg"></div>
     <footer>
-        <small>This is some footer text. </small>
+        <div class="one">
+            <ul>
+                <a href="">
+                    <li>Mentions légales</li>
+                </a>
+                <a href="">
+                    <li>Remerciements</li>
+                </a>
+                <a href="">
+                    <li>SiteMap</li>
+                </a>
+
+            </ul>
+        </div>
         <div class="logo">
             <img src="https://logoncompany.com/wp-content/uploads/2019/11/LGNCLogoWhite.png" alt="logo">
+            <small>
+                <p class="p-3">© Copyright 2020 - 2021 | LogOn Company | Tous droits réservés</p>
+            </small>
         </div>
-        <div class="button_about">
+        <div class="button_about mt-3">
             <a href="" target="blank"><i class="fab fa-linkedin fa-3x"></i></a>
             <a href="" target="blank"><i class="fab fa-github-square fa-3x"></i></a>
             <a href="" target="blank"><i class="fab fa-instagram fa-3x"></i></a>

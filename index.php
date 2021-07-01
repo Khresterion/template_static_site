@@ -7,35 +7,71 @@
 <?php callHeaderImage() ?>
 
 <section id="section1">
-  <div class="container">
-    <h3>Section Heading</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+  <div class="container container_section_1">
+    <div class="cheque-img">
+      <img src="assets/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    </div>
+    <div class="cheque-txt">
+      <h2 class="cheque-title">Le chèque numérique</h2>
+      <p>Vous souhaitez être davantage visible sur la toile ? Vous souhaitez développer vos outils numériques, votre site Internet, vos réseaux sociaux ?
+        <br> <br>
+        N’attendez plus et profitez du Chèque Numérique pour vous lancer !
+        <br> <br>
+        Renseignez-vous sur votre éligibilité auprès de la CCI Bretagne.
+      </p>
+      <a href="" class="button1-bis btn-sm">Lire l'article</a>
+    </div>
+
+
   </div>
 </section>
 
 <!-- this section is slanted using the 'skew' attribute -->
 <section id="section2">
-  <div class="container">
-    <h3>Section Heading</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+  <div class="container container_section_2">
+    <!-- <h3>Section Heading</h3> -->
+    <div class="card" style="width: 18rem;">
+      <img src="assets/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
+      <div class="card-body">
+        <h5 class="card-title">L'entreprise du moment</h5>
+        <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
+          De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
+        <a href="#" class="btn btn-outline-info">Lire l'article</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
+      <div class="card-body">
+        <h5 class="card-title">L'entreprise du moment</h5>
+        <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
+          De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
+        <a href="#" class="btn btn-outline-info">Lire l'article</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
+      <div class="card-body">
+        <h5 class="card-title">L'entreprise du moment</h5>
+        <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
+          De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
+        <a href="#" class="btn btn-outline-info">Lire l'article</a>
+      </div>
+    </div>
+
   </div>
 </section>
 
 <section id="section3">
-  <div class="container">
-    <h3>Section Heading</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+  <h3 class='text-center mt-4'>Qui sommes-nous ?</h3>
+  <div class="container-fluid container_section_3">
+    <div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+    </div>
   </div>
 </section>
 
@@ -137,8 +173,8 @@
 </svg>
 
 <section id="section4">
-  <div class="container">
-    <h3>Section Heading</h3>
+  <div class="container container_section_4">
+    <h3 class="text-center">Section Heading</h3>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>

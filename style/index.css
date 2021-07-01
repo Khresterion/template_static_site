@@ -1,6 +1,48 @@
 /*********************************************************************************/
 /*                                       BODY                                    */
 /*********************************************************************************/
+.button1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  transition: all 0.3s ease-in 0s;
+  border-radius: 20px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+}
+.button1:hover {
+  background: #fff;
+  color: #392d3b;
+  text-decoration: none;
+}
+
+.button1-bis {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1f2937;
+  border: 1px solid #1f2937;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  transition: all 0.3s ease-in 0s;
+  border-radius: 20px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+}
+.button1-bis:hover {
+  background: #1f2937;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
 
 h3 {
   margin-bottom: 2rem;
@@ -13,7 +55,7 @@ h3 {
   color: #f8f8f8;
 } */
 
-.container {
+/* .container {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -23,6 +65,31 @@ h3 {
   line-height: 1.5;
   margin: 0 auto;
   padding: 5%;
+} */
+
+.container_section_1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  margin: 5em auto;
+  padding: 2em;
+  border: black solid 1px;
+  border-radius: 20px;
+  background: url("../assets/BGwhite-min.jpg");
+  color: #1f2937;
+}
+
+.cheque-txt p {
+  text-align: center;
+  padding: 1em;
+}
+
+.cheque-title {
+  text-transform: uppercase;
 }
 
 section {
@@ -40,9 +107,31 @@ section {
   transform: skew(0, -2deg); /* makes the section slanted/skewed*/
 }
 
-#section2 h3,
-#section2 p {
-  transform: skew(0, 2deg); /*eliminates skew on container's text elements*/
+.card-title {
+  font-weight: bold;
+  font-size: medium;
+  letter-spacing: 0;
+}
+
+.card {
+  margin-top: 1em;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  color: #1f2937;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.container_section_2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  margin: 1em auto;
+  padding: 1em;
+  transform: skew(0, 2deg); /* makes the section slanted/skewed*/
 }
 
 #section3 {
@@ -53,6 +142,23 @@ section {
   padding-top: 8%;
   padding-bottom: 8%;
   overflow: hidden;
+}
+
+.container_section_3 {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+  /* text-align: center; */
+  line-height: 1.5;
+  margin: 1em auto;
+  padding: 2em;
+}
+
+.container_section_3 p {
+  padding: 0 1em;
+  text-align: justify;
 }
 
 svg {
@@ -68,6 +174,35 @@ svg {
   padding-top: 10%;
   padding-bottom: 12%;
 }
+
+.container_section_4 {
+  margin: 5em auto;
+  padding: 2em;
+
+  color: #1f2937;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: left;
+}
+
+.one a {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.one a:hover {
+  letter-spacing: 0.1rem;
+  transition-duration: 1s;
+}
+
+/* progress bars */
 
 /*********************************************************************************/
 /*                                  Media Queries                                */
@@ -125,6 +260,16 @@ svg {
   footer {
     flex-direction: column;
   }
+  .container_section_1 {
+    flex-direction: column;
+  }
+
+  .container_section_2 {
+    flex-direction: column;
+  }
+  .container_section_3 {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -134,5 +279,8 @@ svg {
 
   .hero img {
     width: 90vw;
+  }
+  .container_section_3 p {
+    padding: 0;
   }
 }

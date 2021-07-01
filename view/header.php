@@ -98,7 +98,6 @@ function callHeaderImage()
                 <!-- <h1>Main Title</h1>         -->
                 <h3 class="mt-5">Expert en communication<br>
                     Saint-Brieuc & Rennes | Bretagne</h3>
-                <button class="btn btn-hero btn-lg" role="button">Call to action button</button>
             </div>
         </div>
 

@@ -6,6 +6,6 @@
 <?php callHead("LogOn Company - Remerciements", "assets/style/static.css") ?>
 <?php callNav() ?>
 
-<?php callthanks() ?>
+<?php callThanks() ?>
 
 <?php callFooter() ?>

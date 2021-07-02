@@ -28,10 +28,10 @@ function callFooter()
             </small>
         </div>
         <div class="button_about mt-3">
-            <a href="" target="blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a href="https://www.linkedin.com/company/logon-company/" target="blank"><i class="fab fa-linkedin fa-3x"></i></a>
             <a href="" target="blank"><i class="fab fa-github-square fa-3x"></i></a>
-            <a href="" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="" target="blank"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="https://www.instagram.com/logoncompany35/" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.facebook.com/logoncompany35/" target="blank"><i class="fab fa-facebook fa-3x"></i></a>
         </div>
     </footer>
 

@@ -39,8 +39,6 @@ function callIndex()
                 </div>
             </div>
 
-
-
             <div class="card" style="width: 18rem;">
                 <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
                 <div class="card-body">

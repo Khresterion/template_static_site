@@ -11,7 +11,7 @@ function callHead(string $title, string $css)
     <head>
         <title><?= $title ?></title>
 
-        <link rel="shortcut icon" href="assets/LGNC-Favicon.png">
+        <link rel="shortcut icon" href="assets/images/LGNC-Favicon.png">
 
         <meta name="image" property="og:image" content="">
         <meta name="author" content="">
@@ -65,7 +65,7 @@ function callNav()
                     <a href="#">
                         <li>Impressions</li>
                     </a>
-                    <a href="#">
+                    <a href="photos.php">
                         <li>Photos</li>
                     </a>
                     <a href="#">

@@ -43,6 +43,22 @@
   color: #1f2937;
 }
 
+.cheque-txt p {
+  text-align: center;
+  padding: 1em;
+}
+
+.cheque-txt ul {
+  padding-left: 0;
+}
+.cheque-txt ul li {
+  padding: 0 1em;
+}
+
+.cheque-title {
+  text-transform: uppercase;
+}
+
 /*********************************************************************************/
 /*                                  Media Queries                                */
 /*********************************************************************************/
@@ -86,6 +102,14 @@
 @media screen and (min-width: 980px) {
   .hero {
     width: 980px;
+  }
+  .cheque-txt p {
+    text-align: justify;
+  }
+
+  .cheque-txt ul {
+    padding-left: 0;
+    text-align: justify;
   }
 }
 

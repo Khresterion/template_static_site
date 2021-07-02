@@ -304,7 +304,7 @@ hr.hr-1:after {
   height: 100%;
   z-index: 2;
   background-color: #080d15;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /********************************/
@@ -531,6 +531,10 @@ footer {
 .one a:hover {
   letter-spacing: 0.1rem;
   transition-duration: 1s;
+}
+
+.one ul {
+  padding-left: 0;
 }
 
 /* ------------------------------------------------------SHINE EFFECT SPAN------------------------------------------------------ */

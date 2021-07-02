@@ -55,7 +55,7 @@ function callNav()
                 <span></span>
 
                 <ul id="menu">
-                    <a href="#">
+                    <a href="index.php">
                         <li>Accueil</li>
                     </a>
                     <hr class="divider">

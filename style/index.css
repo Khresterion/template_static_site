@@ -39,6 +39,11 @@
   text-decoration: none;
 }
 
+.btn {
+  border-radius: 20px;
+  padding: 9px 50px;
+}
+
 ul,
 li {
   list-style: none;
@@ -88,6 +93,13 @@ h3 {
   padding: 1em;
 }
 
+.cheque-txt ul {
+  padding-left: 0;
+}
+.cheque-txt ul li {
+  padding: 0 1em;
+}
+
 .cheque-title {
   text-transform: uppercase;
 }
@@ -98,7 +110,7 @@ section {
 }
 
 #section1 {
-  background-color: #fff;
+  background-color: #f9fafb;
 }
 
 #section2 {
@@ -179,11 +191,11 @@ svg {
   background-color: #f9fafb;
   margin-top: -10%;
   padding-top: 10%;
-  padding-bottom: 12%;
+  /* padding-bottom: 12%; */
 }
 
 .container_section_4 {
-  margin: 5em auto;
+  margin: 1em auto;
   padding: 2em;
 
   color: #1f2937;
@@ -197,9 +209,6 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.row_section_4 .img-separator {
 }
 
 .one {
@@ -224,12 +233,57 @@ svg {
 
 .pb-4 img {
   transition: 0.7s;
+  border-radius: 50% !important;
 }
+
 .pb-4 img:hover {
   transform: rotate(360deg) scale(1.5);
 }
 
-/* progress bars */
+.header-page {
+  background-color: #f59e0b;
+  height: 30vh;
+  clip-path: polygon(0 0, 100% 0, 100% 14%, 0 37%);
+  /* margin-bottom: -7%; */
+  overflow: hidden;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 999;
+}
+
+#thanks {
+  background-color: #f9fafb;
+  /* margin-top: -10%; */
+  /* padding-top: 10%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.container_section_thanks {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* text-align: center; */
+  line-height: 1.5;
+  /* padding-top: 5em; */
+
+  color: #1f2937;
+}
+
+.container_section_numeric {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  /* margin: 5em auto; */
+  padding: 2em;
+  color: #1f2937;
+}
 
 /*********************************************************************************/
 /*                                  Media Queries                                */
@@ -288,6 +342,10 @@ svg {
     flex-direction: column;
   }
   .container_section_1 {
+    flex-direction: column;
+  }
+
+  .container_section_numeric {
     flex-direction: column;
   }
 

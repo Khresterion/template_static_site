@@ -19,7 +19,7 @@
         <br> <br>
         Renseignez-vous sur votre éligibilité auprès de la CCI Bretagne.
       </p>
-      <a href="" class="button1-bis btn-sm">Lire l'article</a>
+      <a href="cheque-numerique.php" class="button1-bis btn-sm">Lire l'article</a>
     </div>
 
 
@@ -27,7 +27,7 @@
 </section>
 
 <!-- this section is slanted using the 'skew' attribute -->
-<section id="section2">
+<section id="section2" data-aos="fade-right">
   <div class="container container_section_2">
     <!-- <h3>Section Heading</h3> -->
 
@@ -68,7 +68,7 @@
 <section id="section3">
   <h3 class='text-center mt-4' data-aos="fade-up" data-aos-duration="1500">L'agence</h3>
   <hr class="hr-1" data-aos="fade-up" data-aos-duration="1500">
-  <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="1500">
+  <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="2000">
     <div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     </div>
@@ -181,11 +181,8 @@
     <h3 class="text-center">élaborer maintenant la réussite de demain</h3>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
 
-    <div class="row row_section_4 text-center">
+    <div class="row row_section_4 text-center" data-aos="fade-up" data-aos-duration="2000">
       <div class="pb-4">
         <img src="assets/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
         <figcaption class="figure-caption">Design</figcaption>

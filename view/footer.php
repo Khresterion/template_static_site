@@ -9,10 +9,10 @@ function callFooter()
     <footer>
         <div class="one">
             <ul>
-                <a href="">
+                <a href="mentions-legales.php">
                     <li>Mentions légales</li>
                 </a>
-                <a href="">
+                <a href="remerciements.php">
                     <li>Remerciements</li>
                 </a>
                 <a href="">

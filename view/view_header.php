@@ -13,9 +13,9 @@ function callHead(string $title, string $css)
 
         <link rel="shortcut icon" href="assets/LGNC-Favicon.png">
 
-        <meta name="image" property="og:image" content="https://dark-room.fr/images/index.JPG">
-        <meta name="author" content="Jérémy Boulanger aka Jems Baker">
-        <meta name="description" property="og:description" content="First web project built from scratch, based on my dev skills.">
+        <meta name="image" property="og:image" content="">
+        <meta name="author" content="">
+        <meta name="description" property="og:description" content="">
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +26,7 @@ function callHead(string $title, string $css)
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="style/common.css">
+        <link rel="stylesheet" href="assets/style/common.css">
         <link rel="stylesheet" href=<?= $css ?>>
 
     </head>

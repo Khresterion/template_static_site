@@ -1,0 +1,129 @@
+.header-page {
+  background-color: #f59e0b;
+  height: 30vh;
+  clip-path: polygon(0 0, 100% 0, 100% 14%, 0 37%);
+  /* margin-bottom: -7%; */
+  overflow: hidden;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 999;
+}
+
+#thanks {
+  background-color: #f9fafb;
+  /* margin-top: -10%; */
+  /* padding-top: 10%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.container_section_thanks {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* text-align: center; */
+  line-height: 1.5;
+  /* padding-top: 5em; */
+
+  color: #1f2937;
+}
+
+.container_section_numeric {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  /* margin: 5em auto; */
+  padding: 2em;
+  color: #1f2937;
+}
+
+/*********************************************************************************/
+/*                                  Media Queries                                */
+/*********************************************************************************/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 90vw;
+    padding: 5% 5px;
+  }
+
+  header,
+  section {
+    height: 100%;
+  }
+
+  header .container {
+    float: none;
+    text-align: center;
+    padding: 5% 5px;
+  }
+
+  #section2 {
+    padding: 0 5px;
+  }
+
+  #section3 {
+    margin-top: -8%;
+    padding-bottom: 20%;
+  }
+
+  #section4 {
+    padding-bottom: 20%;
+  }
+
+  .footer-bg {
+    height: 200px;
+    margin-top: -30%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .hero {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+  h3 {
+    font-size: large;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .container_section_1 {
+    flex-direction: column;
+  }
+
+  .container_section_numeric {
+    flex-direction: column;
+  }
+
+  .container_section_2 {
+    flex-direction: column;
+  }
+  .container_section_3 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-bg {
+    margin-top: -35%;
+  }
+
+  .hero img {
+    width: 90vw;
+  }
+  .container_section_3 p {
+    padding: 0;
+  }
+}

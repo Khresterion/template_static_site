@@ -1,5 +1,5 @@
-<?php require_once 'view/header.php' ?>
-<?php require_once 'view/footer.php' ?>
+<?php require_once 'view/view_header.php' ?>
+<?php require_once 'view/view_footer.php' ?>
 
 
 <?php callHead("LogOn Company", "style/index.css") ?>

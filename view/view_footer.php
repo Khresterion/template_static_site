@@ -22,7 +22,7 @@ function callFooter()
             </ul>
         </div>
         <div class="logo">
-            <img src="https://logoncompany.com/wp-content/uploads/2019/11/LGNCLogoWhite.png" alt="logo">
+            <img src="assets/images/LGNCLogoWhite.png" alt="logo">
             <small>
                 <p class="p-3">© Copyright 2020 - 2021 | LogOn Company | Tous droits réservés</p>
             </small>
@@ -38,7 +38,7 @@ function callFooter()
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 
 
     </body>

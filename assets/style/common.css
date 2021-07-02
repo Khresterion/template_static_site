@@ -513,6 +513,26 @@ footer {
   transform: scale(1.2);
 }
 
+.one {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: left;
+}
+
+.one a {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.one a:hover {
+  letter-spacing: 0.1rem;
+  transition-duration: 1s;
+}
+
 /* ------------------------------------------------------SHINE EFFECT SPAN------------------------------------------------------ */
 .effect-shine:hover {
   -webkit-mask-image: linear-gradient(

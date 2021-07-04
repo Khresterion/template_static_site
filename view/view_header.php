@@ -97,7 +97,7 @@ function callHeaderImage()
                 <img src="assets/images/LGNCLogoWhite.png" alt="logo" data-aos="zoom-out" data-aos-duration="3000">
                 <!-- <h1>Main Title</h1>         -->
                 <h3 class="mt-5">Expert en communication<br>
-                    Saint-Brieuc & Rennes | Bretagne</h3>
+                    Saint-Brieuc <span class="style-logo">X</span> Rennes | Bretagne</h3>
             </div>
         </div>
 

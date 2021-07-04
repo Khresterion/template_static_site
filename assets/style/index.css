@@ -73,19 +73,35 @@ h3 {
 } */
 
 .container_section_1 {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
-  line-height: 1.5;
-  margin: 5em auto;
-  padding: 2em;
-  border: black solid 1px;
-  border-radius: 20px;
-  background: url("../images/BGwhite-min.jpg");
-  color: #1f2937;
+  /* line-height: 1.5; */
+  /* margin: 5em auto; */
+  /* padding: 2em; */
+  /* border: black solid 1px; */
+  /* border-radius: 20px; */
+  /* background: url("../images/BGwhite-min.jpg"); */
+  /* color: #1f2937; */
+  border-top: #fff inset 1px;
+}
+
+.cheque-img {
+  background-color: #191a1b;
+  width: 40vw;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 99%);
+  padding-top: 5em;
+  text-align: center;
+  /* margin: auto; */
+  display: flex;
+}
+
+.cheque-txt {
+  width: 60vw;
 }
 
 .cheque-txt p {
@@ -299,6 +315,12 @@ svg {
   .footer-bg {
     height: 200px;
     margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .cheque-img {
+    display: none;
   }
 }
 

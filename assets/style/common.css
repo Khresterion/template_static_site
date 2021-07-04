@@ -84,6 +84,12 @@ img {
   filter: grayscale(35%);
 }
 
+.style-logo {
+  font-size: xx-large;
+  font-weight: bold;
+  color: coral;
+}
+
 /********************************/
 /*          Custom Buttons      */
 /********************************/
@@ -170,7 +176,7 @@ img {
 }
 
 #menuToggle a:hover {
-  color: #7f1d1d;
+  color: coral;
   letter-spacing: 0.2em;
 }
 

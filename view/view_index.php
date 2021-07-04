@@ -5,19 +5,21 @@ function callIndex()
 ?>
 
     <section id="section1">
-        <div class="container container_section_1" data-aos="fade-up" data-aos-duration="2000">
-            <div class="cheque-img">
-                <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim">
-            </div>
-            <div class="cheque-txt">
-                <h2 class="cheque-title">Le chèque numérique</h2>
-                <p>Vous souhaitez être davantage visible sur la toile ? Vous souhaitez développer vos outils numériques, votre site Internet, vos réseaux sociaux ?
-                    <br> <br>
-                    N’attendez plus et profitez du Chèque Numérique pour vous lancer !
-                    <br> <br>
-                    Renseignez-vous sur votre éligibilité auprès de la CCI Bretagne.
+        <div class="container_section_1">
+
+            <div class="cheque-txt" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+                <h2 class="cheque-title">Connectons-nous ensemble</h2>
+                <p>Texte de présentation de LoGon,
+                    <br>
+                    Tour rapide des services proposés,
+                    <br>
+                    <a href="" class="button1">Call to action button ?</a>
+
                 </p>
-                <a href="cheque-numerique.php" class="button1-bis btn-sm">Lire l'article</a>
+
+            </div>
+            <div class="cheque-img">
+                <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
             </div>
 
 
@@ -25,14 +27,14 @@ function callIndex()
     </section>
 
     <!-- this section is slanted using the 'skew' attribute -->
-    <section id="section2" data-aos="fade-right">
+    <section id="section2" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">
         <div class="container container_section_2">
             <!-- <h3>Section Heading</h3> -->
 
             <div class="card" style="width: 18rem;">
                 <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
                 <div class="card-body">
-                    <h5 class="card-title">L'entreprise du moment</h5>
+                    <h5 class="card-title">Dernière création web</h5>
                     <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
                     <a href="#" class="btn btn-outline-info">Lire l'article</a>
@@ -40,9 +42,9 @@ function callIndex()
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
+                <img src="assets/images/JDPWeb.png" class="card-img-top" alt="elabor">
                 <div class="card-body">
-                    <h5 class="card-title">L'entreprise du moment</h5>
+                    <h5 class="card-title">Dernier logo</h5>
                     <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
                     <a href="#" class="btn btn-outline-info">Lire l'article</a>

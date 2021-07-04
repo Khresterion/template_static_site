@@ -27,7 +27,7 @@ function callIndex()
     </section>
 
     <!-- this section is slanted using the 'skew' attribute -->
-    <section id="section2" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">
+    <section id="section2">
         <div class="container container_section_2">
             <!-- <h3>Section Heading</h3> -->
 

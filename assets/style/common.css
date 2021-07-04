@@ -57,7 +57,7 @@ hr.hr-1:after {
   position: relative;
   top: -13px;
   padding: 0 3px;
-  background: #1f2937;
+  background: #191a1b;
   color: #8c8c8c;
   font-size: 18px;
 }
@@ -80,9 +80,9 @@ hr.hr-2:after {
   font-size: 18px;
 }
 
-/* img {
-  filter: grayscale(50%);
-} */
+img {
+  filter: grayscale(35%);
+}
 
 /********************************/
 /*          Custom Buttons      */

@@ -5,7 +5,7 @@ function callIndex()
 ?>
 
     <section id="section1">
-        <div class="container container_section_1" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container container_section_1" data-aos="fade-up" data-aos-duration="2000">
             <div class="cheque-img">
                 <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim">
             </div>
@@ -62,9 +62,9 @@ function callIndex()
     </section>
 
     <section id="section3">
-        <h3 class='text-center mt-4' data-aos="fade-up" data-aos-duration="1500">L'agence</h3>
-        <hr class="hr-1" data-aos="fade-up" data-aos-duration="1500">
-        <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="2000">
+        <h3 class='text-center mt-4' data-aos="fade-up" data-aos-duration="2000">L'agence</h3>
+        <hr class="hr-1" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="3000">
             <div>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
             </div>
@@ -83,11 +83,11 @@ function callIndex()
                 }
 
                 .cls-2 {
-                    fill: #191a1b;
+                    fill: #0a0a0a;
                 }
 
                 .cls-3 {
-                    fill: #0a0a0a;
+                    fill: #191a1b;
                 }
             </style>
         </defs>
@@ -173,12 +173,12 @@ function callIndex()
 
     <section id="section4">
 
-        <div class="container container_section_4" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container container_section_4" data-aos="fade-up" data-aos-duration="2000">
             <h3 class="text-center">élaborer maintenant la réussite de demain</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
 
-            <div class="row row_section_4 text-center" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row row_section_4 text-center" data-aos="fade-up" data-aos-duration="3000">
                 <div class="pb-4">
                     <img src="assets/images/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Design</figcaption>

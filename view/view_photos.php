@@ -5,7 +5,7 @@ function callPhotos()
 ?>
     <section class="header-page-2"></section>
     <section id="section1">
-        <div class="container container_section_1" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container container_section_1" data-aos="fade-up" data-aos-duration="2000">
             <div class="eye-img">
                 <img src="assets/images/Photo-logon-company-oeil-1024x613.png" alt="eye" class="img-fluid img-anim">
             </div>
@@ -28,9 +28,9 @@ function callPhotos()
 
     <section id="section2">
         <div class="container container_section_2">
-            <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="1500">quelques chiffres</h3>
-            <hr class="hr-2" data-aos="fade-up" data-aos-duration="1500">
-            <div class="row_section_2" data-aos="fade-up" data-aos-duration="2000">
+            <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="2000">quelques chiffres</h3>
+            <hr class="hr-2" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row_section_2" data-aos="fade-up" data-aos-duration="3000">
                 <div class="p-4">
                     <img src="assets/images/93.png" alt="logos" class="img-section-2">
                     <p class="figure-caption pt-3">Sur un réseau social comme Facebook, 93% des publications accompagnées d’images engendre un <span class="text-important">engagement</span> de l’internaute.</p>
@@ -49,8 +49,8 @@ function callPhotos()
     </section>
 
     <section id="section3">
-        <div class="container container_section_3" data-aos="fade-up" data-aos-duration="1500">
-            <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="1500">set design</h3>
+        <div class="container container_section_3" data-aos="fade-up" data-aos-duration="2000">
+            <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="2000">set design</h3>
             <div class="eye-txt">
                 <p>Le set design a pour mission de rendre <span class="text-important">attractif</span> un produit via un ou plusieurs clichés. <br> Il est possible d’y intégrer plusieurs éléments pour <span class="text-important">améliorer l’esthétisme</span> de la photographie.
                     <br><br>
@@ -67,15 +67,15 @@ function callPhotos()
 
         </div>
         <div class="tryptique">
-            <img src="assets/images/Burger-frites-delice.jpg" alt="burger" class="img-thumbnail" data-aos="fade-up" data-aos-duration="2000">
-            <img src="assets/images/Tartines-idee-repas-logon-company.jpg" alt="tartines" class="img-thumbnail" data-aos="fade-up" data-aos-duration="2000">
-            <img src="assets/images/Frites-repas-delice-logon-company.jpg" alt="frites" class="img-thumbnail" data-aos="fade-up" data-aos-duration="2000">
+            <img src="assets/images/Burger-frites-delice.jpg" alt="burger" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/Tartines-idee-repas-logon-company.jpg" alt="tartines" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/Frites-repas-delice-logon-company.jpg" alt="frites" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
         </div>
     </section>
 
     <section id="section4">
-        <div class="container container_section_4" data-aos="fade-up" data-aos-duration="1500">
-            <h3 class="text-center pb-3" data-aos="fade-down" data-aos-duration="1500">corporate</h3>
+        <div class="container container_section_4" data-aos="fade-up" data-aos-duration="2000">
+            <h3 class="text-center pb-3" data-aos="fade-down" data-aos-duration="2000">corporate</h3>
             <div class="eye-txt">
                 <p>Mettre en avant son activité en illustrant son <span class="text-important">métier</span>, son <span class="text-important">espace</span> et ses <span class="text-important">outils de travail</span> est primordial pour attirer le client et le mettre en confiance.
                     <br><br>
@@ -92,20 +92,20 @@ function callPhotos()
 
         </div>
         <div class="img-corporate">
-            <img src="assets/images/Apple-ordinateur-bureau-work.jpg" alt="burger" class="" data-aos="fade-down-right" data-aos-duration="2000">
-            <img src="assets/images/building-business-tower-corporate.jpg" alt="tartines" class="" data-aos="fade-down" data-aos-duration="2000">
-            <img src="assets/images/Bar-Restaurant-photo.jpg" alt="frites" class="" data-aos="fade-down-left" data-aos-duration="2000">
+            <img src="assets/images/Apple-ordinateur-bureau-work.jpg" alt="burger" class="" data-aos="fade-down-right" data-aos-duration="3000">
+            <img src="assets/images/building-business-tower-corporate.jpg" alt="tartines" class="" data-aos="fade-down" data-aos-duration="3000">
+            <img src="assets/images/Bar-Restaurant-photo.jpg" alt="frites" class="" data-aos="fade-down-left" data-aos-duration="3000">
         </div>
         <div class="img-corporate">
-            <img src="assets/images/DJ-Platines-controleur-photo-corporate.jpg" alt="burger" class="" data-aos="fade-up-right" data-aos-duration="2000">
-            <img src="assets/images/Bureau-chaise-travail-corporate.jpg" alt="tartines" class="" data-aos="fade-up" data-aos-duration="2000">
-            <img src="assets/images/magasin-vetements-photo-corporate.jpg" alt="frites" class="" data-aos="fade-up-left" data-aos-duration="2000">
+            <img src="assets/images/DJ-Platines-controleur-photo-corporate.jpg" alt="burger" class="" data-aos="fade-up-right" data-aos-duration="3000">
+            <img src="assets/images/Bureau-chaise-travail-corporate.jpg" alt="tartines" class="" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/magasin-vetements-photo-corporate.jpg" alt="frites" class="" data-aos="fade-up-left" data-aos-duration="3000">
         </div>
     </section>
 
     <section id="section5">
-        <div class="container container_section_5" data-aos="fade-up" data-aos-duration="1500">
-            <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="1500">Personal branding</h3>
+        <div class="container container_section_5" data-aos="fade-up" data-aos-duration="2000">
+            <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="2000">Personal branding</h3>
             <div class="eye-txt">
                 <p>Vous souhaitez véhiculer une certaine image de vous et vous illustrer autrement que par de la photo purement professionnelle ?
                     <br><br>

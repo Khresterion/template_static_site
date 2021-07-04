@@ -1,5 +1,5 @@
 .header-page-2 {
-  background-color: #1f2937;
+  background-color: #111111;
   height: 30vh;
   clip-path: polygon(
     0 0,
@@ -36,7 +36,7 @@
   line-height: 1.5;
   /* margin: 5em auto; */
   /* padding: 2em; */
-  color: #1f2937;
+  color: #d1d5db;
 }
 
 .eye-txt p {
@@ -54,7 +54,7 @@
 .eye-txt a:hover {
   font-weight: bold;
   letter-spacing: 0.2em;
-  color: #1f2937;
+  color: #d1d5db;
 }
 
 section {
@@ -63,7 +63,7 @@ section {
 }
 
 #section1 {
-  background-color: #f9fafb;
+  background-color: #2a2e39;
   padding-bottom: 5em;
 }
 
@@ -117,11 +117,11 @@ p .text-important:hover {
   line-height: 1.5;
   /* margin: 5em auto; */
   /* padding: 2em; */
-  color: #1f2937;
+  color: #d1d5db;
 }
 
 #section3 {
-  background-color: #f9fafb;
+  background-color: #2a2e39;
   padding-bottom: 5em;
 }
 
@@ -148,13 +148,13 @@ p .text-important:hover {
   /* margin: 5em auto; */
   /* padding: 2em; */
   color: #1f2937;
-  color: #f9fafb;
+  color: #d1d5db;
 }
 
 #section4 {
   padding: 5em 0;
   clip-path: polygon(0 0, 100% 6%, 100% 94%, 0% 100%);
-  background-color: #1f2937;
+  background-color: #191a1b;
 }
 
 .img-corporate {
@@ -180,11 +180,11 @@ p .text-important:hover {
   line-height: 1.5;
   /* margin: 5em auto; */
   /* padding: 2em; */
-  color: #1f2937;
+  color: #d1d5db;
 }
 
 #section5 {
-  background-color: #f9fafb;
+  background-color: #2a2e39;
   padding-bottom: 5em;
 }
 

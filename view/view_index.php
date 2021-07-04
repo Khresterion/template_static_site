@@ -75,7 +75,7 @@ function callIndex()
     </section>
 
     <!-- Chevron pattern SVG -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.74 55.15">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.74 55.15" class="effect-shine">
         <defs>
             <style>
                 .cls-1 {
@@ -83,11 +83,11 @@ function callIndex()
                 }
 
                 .cls-2 {
-                    fill: #374151;
+                    fill: #191a1b;
                 }
 
                 .cls-3 {
-                    fill: #111827;
+                    fill: #0a0a0a;
                 }
             </style>
         </defs>

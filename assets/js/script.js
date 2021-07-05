@@ -31,4 +31,15 @@ function scrollToTop() {
   $("html, body").animate({ scrollTop: offsetTop }, 500, "linear");
 }
 
-// PROGRESS BARS
+// SLIDE SHOW
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function () {
+  $("#slideshow > div:first")
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo("#slideshow");
+}, 3000);

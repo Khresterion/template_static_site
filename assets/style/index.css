@@ -1,23 +1,26 @@
 /*********************************************************************************/
 /*                                       BODY                                    */
 /*********************************************************************************/
-.button1 {
+.button3 {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: inline-block;
   margin-top: 20px;
   padding: 18px 50px;
   transition: all 0.3s ease-in 0s;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   letter-spacing: 0.2em;
   text-decoration: none;
+  background-color: #111111;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
-.button1:hover {
-  background: #fff;
+.button3:hover {
+  background: #d1d5db;
   color: #392d3b;
   text-decoration: none;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
 }
 
 .button1-bis {

@@ -62,17 +62,14 @@ function callNav()
                     <a href="#">
                         <li>Créations</li>
                     </a>
-                    <a href="#">
+                    <a href="impressions.php">
                         <li>Impressions</li>
                     </a>
                     <a href="photos.php">
                         <li>Photos</li>
                     </a>
-                    <a href="#">
+                    <a href="branding.php">
                         <li>Branding</li>
-                    </a>
-                    <a href="#">
-                        <li>Actualité</li>
                     </a>
                     <a href="#">
                         <li>Contact</li>

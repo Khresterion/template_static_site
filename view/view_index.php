@@ -13,7 +13,7 @@ function callIndex()
                     <br>
                     Tour rapide des services proposés,
                     <br>
-                    <a href="" class="button1">Call to action button ?</a>
+                    <a href="" class="button3">Call to action</a>
 
                 </p>
 
@@ -180,7 +180,7 @@ function callIndex()
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
 
-            <div class="row row_section_4 text-center" data-aos="fade-up" data-aos-duration="3000">
+            <div class="row row_section_4 text-center" data-aos="fade-up">
                 <div class="pb-4">
                     <img src="assets/images/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Design</figcaption>

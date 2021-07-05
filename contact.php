@@ -1,9 +1,32 @@
 <?php require_once 'view/view_header.php' ?>
 <?php require_once 'view/view_footer.php' ?>
+<?php require_once 'controller/mail.php' ?>
 
 
 <?php callHead("LogOn Company", "style/index.css") ?>
 <?php callNav() ?>
+
+<?php
+
+$success = null;
+$error = null;
+
+if (isset($_POST['send'])) {
+    $position_arobase = strpos($_POST['mail'], '@');
+    if ($position_arobase === false) {
+        // echo '<p>Votre email doit comporter un arobase.</p>';
+    } else {
+        $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['mail']);
+        if ($return) {
+            // echo '<p>Votre message a été envoyé.</p>';
+            $success = "<strong>Success!</strong> Your message have been send successfully!";
+        } else {
+            // echo '<p>Erreur.</p>';
+            $error = "There is an error here...";
+        }
+    }
+}
+?>
 
 
 <section class="mb-4">
@@ -18,7 +41,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="controller/mail.php" method="POST">
+            <form id="contact-form" name="contact-form" action="" method="POST">
 
                 <!--Grid row-->
                 <div class="row">

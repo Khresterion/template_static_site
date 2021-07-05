@@ -11,7 +11,8 @@
 // if ($email === '') {
 //     print json_encode(array('message' => 'Email cannot be empty', 'code' => 0));
 //     exit();
-// } else {
+// } 
+// else {
 //     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 //         print json_encode(array('message' => 'Email format invalid.', 'code' => 0));
 //         exit();

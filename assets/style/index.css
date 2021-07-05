@@ -95,7 +95,6 @@ h3 {
 .cheque-img {
   background-color: #191a1b;
   width: 40vw;
-  height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 99%);
   padding-top: 5em;
   text-align: center;

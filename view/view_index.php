@@ -68,10 +68,12 @@ function callIndex()
         <hr class="hr-1" data-aos="fade-up" data-aos-duration="2000">
         <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="3000">
             <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+                <p>STAFF / présentation du fondateur et du super developpeur web</p>
             </div>
             <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+                <p>Une entreprise à taille humaine <br>
+                    moins d'intermédiaires, prix plus ronds, des spécialistes complémentaires. <br>
+                    Reprise des coordonnées</p>
             </div>
         </div>
     </section>

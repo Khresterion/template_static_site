@@ -59,7 +59,7 @@ function callNav()
                         <li>Accueil</li>
                     </a>
                     <hr class="divider">
-                    <a href="#">
+                    <a href="creations.php">
                         <li>Créations</li>
                     </a>
                     <a href="impressions.php">

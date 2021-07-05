@@ -38,7 +38,6 @@ function callImpressions()
                 <div><img src="assets/images/RollUpPrix.png" alt="corporate"></div>
                 <div><img src="assets/images/Clothes01LGNC.png" alt="corporate"></div>
             </div>
-
         </div>
     </section>
 
@@ -79,7 +78,7 @@ function callImpressions()
 
     <section id="section4">
         <div class="container container_section_4" data-aos="fade-up" data-aos-duration="2000">
-            <h3 class="text-center pb-3" data-aos="fade-down" data-aos-duration="2000">corporate</h3>
+            <h3 class="text-center pb-3" data-aos="fade-down" data-aos-duration="2000">Toujours sur-mesure</h3>
             <div class="eye-txt">
                 <p>Vos <span class="text-important">cartes de visite</span> pourront être imprimées selon vos envies avec un <span class="text-important">grammage papier</span> approprié (350gr minimum en général), un format classique, carré, ouvert, ... une <span class="text-important">impression</span> à l’horizontale ou à la verticale, une qualité au <span class="text-important">touché</span> qui pourra varier du papier demimat-couché mat, au touché soft touch, avec une <span class="text-important">finition</span>, sur votre logo par exemple, d’un vernis 3D qui vous comblera et ne laissera pas insensible vos clients et prospects !
                     <br><br>

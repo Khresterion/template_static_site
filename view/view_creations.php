@@ -6,11 +6,12 @@ function callCreations()
     <section class="header-page-2"></section>
     <section id="section1">
         <div class=" container_section_1" data-aos="fade-up" data-aos-duration="2000">
+            <h3>vos besoins</h3>
             <div class="eye-txt">
                 <p>Votre communication doit être le reflet de votre identité. <br>
                     Augmentez votre influence grâce à nos <span class="text-important">créations dynamiques</span> et atteignez une <span class="text-important">notoriété</span> grandissante plus rapidement.
                     <br><br>
-                    Nos logos sont confectionnés <span class="text-important">sur-mesure</span> suivant votre projet, votre vision et vos ambitions.
+                    Nos créations sont confectionnées <span class="text-important">sur-mesure</span> suivant votre projet, votre vision et vos ambitions.
                 </p>
                 <form class="form-inline text-center">
                     <label class="" for="inlineFormCustomSelectPref">LoGon Company© peut vous soutenir dans des projets à la création comme... &nbsp;</label>
@@ -25,6 +26,25 @@ function callCreations()
                         <option value="7">D - la réponse D</option>
                     </select>
 
+            </div>
+
+            <div class="besoin">
+                <div class="card-one" data-aos="flip-down" data-aos-duration="1500">
+                    <h3>design</h3>
+                    <p class="text-justify">Identification du design le plus approprié et le plus interactif selon votre activité professionnelle. <span class="text-important">L’esthétique</span> de votre site Web est la première image que vous souhaitez véhiculer à vos internautes.</p>
+                </div>
+                <div class="card-two" data-aos="flip-down" data-aos-duration="2000">
+                    <h3>service personnalisé</h3>
+                    <p>Un service sur-mesure pour chaque client. Site vitrine, e-commerce, blog... à chaque entreprise <span class="text-important">son site adapté</span> en fonction du comportement de ses propres internaute</p>
+                </div>
+                <div class="card-three" data-aos="flip-down" data-aos-duration="2500">
+                    <h3>contenu</h3>
+                    <p>La plupart des internautes recherchent des <span class="text-important">informations pratiques</span> de manière rapide et efficaces. Nous vous apportons toutes les solutions nécessaires pour rendre votre site agréable à la lecture.</p>
+                </div>
+                <div class="card-four" data-aos="flip-down" data-aos-duration="3000">
+                    <h3>notoriété</h3>
+                    <p>Pour aider votre site internet à gagner en <span class="text-important">visibilité</span>, nous utilisons des leviers e-marketing connus et reconnus dans le monde du webmarketing.</p>
+                </div>
             </div>
             <div class="container mt-5" data-aos="fade-up" data-aos-duration="3000">
                 <figure>

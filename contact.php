@@ -6,84 +6,101 @@
 <?php callNav() ?>
 
 
-<section id="section1">
-    <div class="content">
+<section class="mb-4">
 
-        <div class="container">
-            <div class="row align-items-stretch no-gutters contact-wrap">
-                <div class="col-md-8">
-                    <div class="form h-100">
-                        <h3>Send us a message</h3>
-                        <form class="mb-5" method="post" id="contactForm" name="contactForm">
-                            <div class="row">
-                                <div class="col-md-6 form-group mb-5">
-                                    <label for="" class="col-form-label">Name *</label>
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
-                                </div>
-                                <div class="col-md-6 form-group mb-5">
-                                    <label for="" class="col-form-label">Email *</label>
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="Your email">
-                                </div>
-                            </div>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
 
-                            <div class="row">
-                                <div class="col-md-6 form-group mb-5">
-                                    <label for="" class="col-form-label">Phone</label>
-                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone #">
-                                </div>
-                                <div class="col-md-6 form-group mb-5">
-                                    <label for="" class="col-form-label">Company</label>
-                                    <input type="text" class="form-control" name="company" id="company" placeholder="Company  name">
-                                </div>
-                            </div>
+    <div class="row">
 
-                            <div class="row">
-                                <div class="col-md-12 form-group mb-5">
-                                    <label for="message" class="col-form-label">Message *</label>
-                                    <textarea class="form-control" name="message" id="message" cols="30" rows="4" placeholder="Write your message"></textarea>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 form-group">
-                                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
-                                    <span class="submitting"></span>
-                                </div>
-                            </div>
-                        </form>
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="controller/mail.php" method="POST">
 
-                        <div id="form-message-warning mt-4"></div>
-                        <div id="form-message-success">
-                            Your message was sent, thank you!
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
                         </div>
 
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="contact-info h-100">
-                        <h3>Contact Information</h3>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, magnam!</p>
-                        <ul class="list-unstyled">
-                            <li class="d-flex">
-                                <span class="wrap-icon icon-room mr-3"></span>
-                                <span class="text">9757 Aspen Lane South Richmond Hill, NY 11419</span>
-                            </li>
-                            <li class="d-flex">
-                                <span class="wrap-icon icon-phone mr-3"></span>
-                                <span class="text">+1 (291) 939 9321</span>
-                            </li>
-                            <li class="d-flex">
-                                <span class="wrap-icon icon-envelope mr-3"></span>
-                                <span class="text">info@mywebsite.com</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="validateForm();">Send</a>
             </div>
+            <div class="status"></div>
         </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>San Francisco, CA 94126, USA</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@mdbootstrap.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
 
     </div>
 
 </section>
+<!--Section: Contact v.2-->
 
 <!-- this section is slanted using the 'skew' attribute -->
 <section id="section2">
@@ -197,5 +214,9 @@
 
 
 </section>
+
+<script>
+
+</script>
 
 <?php callFooter() ?>

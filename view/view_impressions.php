@@ -68,10 +68,10 @@ function callImpressions()
             <img src="assets/images/Cartes-visite-vernis-selectif-qualite-logon-company.jpg" alt="cartes">
         </div>
         <div class="img-corporate">
-            <img src="assets/images/Apple-ordinateur-bureau-work.jpg" alt="burger">
-            <img src="assets/images/building-business-tower-corporate.jpg" alt="tartines">
-            <img src="assets/images/Bar-Restaurant-photo.jpg" alt="frites">
-            <img src="assets/images/DJ-Platines-controleur-photo-corporate.jpg">
+            <img src="assets/images/adhesif-impression-application-Kopp-Marechalerie-camion-logon-company.jpg" alt="burger">
+            <img src="assets/images/Depliant-impression-Couleur-Nature-beton-cire-logon-company.jpg" alt="tartines">
+            <img src="assets/images/Le-Marchand-Menuiserie-cartes-visite.jpg" alt="frites">
+            <img src="assets/images/Depliant-impression-My-Eazy-Car.jpg">
         </div>
 
     </section>

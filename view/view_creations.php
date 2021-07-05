@@ -26,7 +26,7 @@ function callCreations()
                     </select>
 
             </div>
-            <div class="container mt-5">
+            <div class="container mt-5" data-aos="fade-up" data-aos-duration="3000">
                 <figure>
                     <blockquote>
                         <p>La marque est juste une perception, et la perception correspondra à la réalité en définitive. Parfois elle sera en avance, parfois elle sera en retard, mais la marque est simplement une impression collective sur un produit.</p>

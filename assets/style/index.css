@@ -324,6 +324,9 @@ svg {
   .cheque-img {
     display: none;
   }
+  .cheque-txt {
+    width: 100vw;
+  }
 }
 
 @media screen and (min-width: 980px) {
@@ -369,4 +372,8 @@ svg {
   .container_section_3 p {
     padding: 0;
   }
+
+  /* .cheque-title {
+    font-size: x-large;
+  } */
 }

@@ -8,13 +8,12 @@ function callIndex()
         <div class="container_section_1">
 
             <div class="cheque-txt" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
-                <h2 class="cheque-title">Connectons-nous ensemble</h2>
+                <h3 class="cheque-title mt-3">Connectons-nous ensemble</h3>
                 <p>Texte de présentation de LoGon,
                     <br>
                     Tour rapide des services proposés,
                     <br>
                     <a href="" class="button3">Call to action</a>
-
                 </p>
 
             </div>

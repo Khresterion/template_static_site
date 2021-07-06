@@ -80,14 +80,16 @@ if (isset($_POST["name"], $_POST["mail"], $_POST["message"])) {
             $position_arobase = strpos($_POST['mail'], '@');
             if ($position_arobase === false) {
             } else {
-                $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact de Logon Company', $_POST['message'], 'From: ' . $_POST['mail']);
+                $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact de Logon Company', $_POST['message'], ("sujet : " . $_POST['subject']), 'From: ' . $_POST['mail']);
                 if ($return) {
+                    // header('Location: https://dark-room.fr/contact.php/');
                     $success = "<strong>Succès!</strong> Votre message a bien été envoyé!";
                 } else {
                     $error = "Il y a une erreur par ici...";
                 }
+                // header("location: ../contact.php");
             }
-            // header("location: contact.php");
+            exit();
         }
     }
 }

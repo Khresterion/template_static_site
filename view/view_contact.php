@@ -6,21 +6,78 @@ function callContact()
 
 {
 
-    $success = null;
-    $error = null;
+    // $success = null;
+    // $error = null;
 
-    if (isset($_POST['send'])) {
-        $position_arobase = strpos($_POST['mail'], '@');
-        if ($position_arobase === false) {
-            // echo '<p>Votre email doit comporter un arobase.</p>';
-        } else {
-            $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['mail']);
-            if ($return) {
-                // echo '<p>Votre message a été envoyé.</p>';
-                $success = "<strong>Success!</strong> Your message have been send successfully!";
-            } else {
-                // echo '<p>Erreur.</p>';
-                $error = "There is an error here...";
+    // if (isset($_POST['send'])) {
+    //     $position_arobase = strpos($_POST['mail'], '@');
+    //     if ($position_arobase === false) {
+    //         // echo '<p>Votre email doit comporter un arobase.</p>';
+    //     } else {
+    //         $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['mail']);
+    //         if ($return) {
+    //             // echo '<p>Votre message a été envoyé.</p>';
+    //             $success = "<strong>Success!</strong> Your message have been send successfully!";
+    //         } else {
+    //             // echo '<p>Erreur.</p>';
+    //             $error = "There is an error here...";
+    //         }
+    //     }
+    // }
+
+    $success = $error = null;
+    $isThereError = false;
+
+    $nomRegex = "/[A-Za-z\é\è\ê\-]+$/";
+    $emailRegex = '/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/';
+
+    $nomErr = $messageErr =  $emailErr = "";
+
+    $nomErr = $messageErr =  $emailErr = "";
+
+    if (isset($_POST["name"], $_POST["mail"], $_POST["message"])) {
+
+        $name = secure_input($_POST['name']);
+        $email = secure_input($_POST['mail']);
+        $message = secure_input($_POST['message']);
+
+        if (empty($name)) {
+            $nomErr = "Nom requis";
+            $isThereError = true;
+        } elseif (!preg_match($nomRegex, $name)) {
+            $nomErr = "lettres et espaces uniquement";
+            $isThereError = true;
+        }
+        /////////////////////////////////////
+        if (empty($email)) {
+            $emailErr = "email requis";
+            $isThereError = true;
+        } elseif (!preg_match($emailRegex, $email)) {
+            $emailErr = "lettres et espaces uniquement";
+            $isThereError = true;
+        }
+        /////////////////////////////////////
+        if (empty($message)) {
+            $messageErr = "Le message ne doit pas être vide";
+            $isThereError = true;
+        }
+        // Condition par rapport aux regex pour imprimer les données dans la table
+        if (preg_match($nomRegex, $name) && preg_match($emailRegex, $email) && !$isThereError) {
+
+            if (isset($_POST['send'])) {
+                $position_arobase = strpos($_POST['mail'], '@');
+                if ($position_arobase === false) {
+                } else {
+                    $return = mail('contact@logoncompany.com', 'Envoi depuis la page Contact de Logon Company', $_POST['message'], ("sujet : " . $_POST['subject']), 'From: ' . $_POST['mail']);
+                    if ($return) {
+                        // header('Location: https://dark-room.fr/contact.php/');
+                        $success = "<strong>Succès!</strong> Votre message a bien été envoyé!";
+                    } else {
+                        $error = "Il y a une erreur par ici...";
+                    }
+                    // header("location: ../contact.php");
+                }
+                exit();
             }
         }
     }
@@ -42,23 +99,23 @@ function callContact()
                     </div>
 
                     <fieldset>
-                        <input placeholder="Name" type="text" id="name" name="name" tabindex="1" size="60" autofocus>
+                        <input placeholder="Nom" type="text" id="name" name="name" tabindex="1" size="60" autofocus>
                     </fieldset>
                     <fieldset>
                         <input placeholder="Mail" id="mail" type="email" name="mail" tabindex="2">
                         <span class="error" aria-live="polite"></span>
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Phone (optional)" id="tel" name="tel" type="tel" tabindex="3">
+                        <input placeholder="Téléphone (optionel)" id="tel" name="tel" type="tel" tabindex="3">
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Subject" id="subject" name="subject" type="text" tabindex="4">
+                        <input placeholder="Sujet" id="subject" name="subject" type="text" tabindex="4">
                     </fieldset>
                     <fieldset>
-                        <textarea placeholder="What are we going to discuss ?" id="message" name="message" tabindex="5"></textarea>
+                        <textarea placeholder="De quoi allons-nous parler ?" id="message" name="message" tabindex="5"></textarea>
                     </fieldset>
                     <!-- <fieldset> -->
-                    <button name="send" type="submit" id="contact-submit" data-submit="...Sending">SEND</button>
+                    <button name="send" type="submit" id="contact-submit" data-submit="...Sending">ENVOYER</button>
                     <?php if ($success) : ?>
                         <div class="alert alert-success alert-dismissible fade show" role="alert"><button type=" button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>

@@ -15,7 +15,7 @@ function callFooter()
                 <a href="remerciements.php">
                     <li>Remerciements</li>
                 </a>
-                <a href="">
+                <a href="sitemap.php">
                     <li>SiteMap</li>
                 </a>
 
@@ -36,7 +36,9 @@ function callFooter()
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.0.js"></script> -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>

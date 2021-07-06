@@ -4,7 +4,7 @@
 <?php require_once 'controller/mail.php' ?>
 
 
-<?php callHead("LogOn Company", "assets/style/contact.css") ?>
+<?php callHead("LogOn Company - Contact", "assets/style/contact.css") ?>
 <?php callNav() ?>
 <?php callContact() ?>
 

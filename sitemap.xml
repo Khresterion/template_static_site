@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://template-logon.herokuapp.com/index.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/creations.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/impressions.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/photos.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/branding.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/contact.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/mentions-legales.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://template-logon.herokuapp.com/remerciements.php</loc>
+  <lastmod>2021-07-06T10:40:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

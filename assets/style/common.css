@@ -106,6 +106,61 @@ img {
   margin: 20px auto;
 }
 
+.button3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  /* border: 1px solid white; */
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 50px;
+  transition: all 0.3s ease-in 0s;
+  /* border-radius: 20px; */
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  background-color: #111111;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.button3:hover {
+  background: #d1d5db;
+  color: #392d3b;
+  text-decoration: none;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
+}
+
+/********************************/
+/*        Custom Headers        */
+/********************************/
+
+.header-page-2 {
+  background-color: #111111;
+  height: 30vh;
+  clip-path: polygon(
+    0 0,
+    0 40%,
+    13% 32%,
+    16% 20%,
+    26% 25%,
+    34% 16%,
+    41% 20%,
+    54% 14%,
+    62% 22%,
+    74% 15%,
+    82% 25%,
+    89% 20%,
+    91% 28%,
+    100% 36%,
+    100% 0
+  );
+  /* margin-bottom: -7%; */
+  overflow: hidden;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 999;
+  margin-bottom: -8%;
+}
+
 /********************************/
 /*          Scroll to TOP       */
 /********************************/

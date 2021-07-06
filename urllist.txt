@@ -1,0 +1,8 @@
+https://template-logon.herokuapp.com/index.php
+https://template-logon.herokuapp.com/creations.php
+https://template-logon.herokuapp.com/impressions.php
+https://template-logon.herokuapp.com/photos.php
+https://template-logon.herokuapp.com/branding.php
+https://template-logon.herokuapp.com/contact.php
+https://template-logon.herokuapp.com/mentions-legales.php
+https://template-logon.herokuapp.com/remerciements.php

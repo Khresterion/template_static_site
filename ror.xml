@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://template-logon.herokuapp.com/index.php</title>
+  <link>https://template-logon.herokuapp.com/index.php</link>
+
+<item>
+     <link>https://template-logon.herokuapp.com/index.php</link>
+     <title>LogOn Company</title>
+     <description>LogOn Company</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/creations.php</link>
+     <title>LogOn Company - Créations</title>
+     <description>LogOn Company - Créations</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/impressions.php</link>
+     <title>LogOn Company - Impressions</title>
+     <description>LogOn Company - Impressions</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/photos.php</link>
+     <title>LogOn Company - Photos</title>
+     <description>LogOn Company - Photos</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/branding.php</link>
+     <title>LogOn Company - Branding</title>
+     <description>LogOn Company - Branding</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/contact.php</link>
+     <title>LogOn Company</title>
+     <description>LogOn Company</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/mentions-legales.php</link>
+     <title>LogOn Company - Mentions légales</title>
+     <description>LogOn Company - Mentions légales</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://template-logon.herokuapp.com/remerciements.php</link>
+     <title>LogOn Company - Remerciements</title>
+     <description>LogOn Company - Remerciements</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

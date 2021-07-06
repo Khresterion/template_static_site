@@ -1,23 +1,30 @@
 <?php
 require_once 'controller/mail.php';
+
+
 function callContact()
 
 {
-    $success = $error = null;
-    $nomErr = $messageErr =  $emailErr = "";
+
+    $success = null;
+    $error = null;
+
     if (isset($_POST['send'])) {
         $position_arobase = strpos($_POST['mail'], '@');
         if ($position_arobase === false) {
+            // echo '<p>Votre email doit comporter un arobase.</p>';
         } else {
-            $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact de Logon Company', $_POST['message'], 'From: ' . $_POST['mail']);
+            $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['mail']);
             if ($return) {
-                $success = "<strong>Succès!</strong> Votre message a bien été envoyé!";
+                // echo '<p>Votre message a été envoyé.</p>';
+                $success = "<strong>Success!</strong> Your message have been send successfully!";
             } else {
-                $error = "Il y a une erreur par ici...";
+                // echo '<p>Erreur.</p>';
+                $error = "There is an error here...";
             }
         }
-        // header("location: contact.php");
     }
+
 ?>
     <section class="header-page-2"></section>
     <section id="section1">
@@ -36,12 +43,12 @@ function callContact()
 
                     <fieldset>
                         <input placeholder="Nom" type="text" id="name" name="name" tabindex="1" size="60" autofocus required>
-                        <span class="comments text-danger font-italic"><?php echo $nomErr ?></span>
+
                     </fieldset>
                     <fieldset>
                         <input placeholder="Mail" id="mail" type="email" name="mail" tabindex="2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                         <span class="error" aria-live="polite"></span>
-                        <span class="comments text-danger font-italic"><?php echo $emailErr ?></span>
+
                     </fieldset>
                     <fieldset>
                         <input placeholder="Téléphone (optionel)" id="tel" name="tel" type="tel" tabindex="3">
@@ -58,7 +65,7 @@ function callContact()
                     </fieldset>
                     <fieldset>
                         <textarea placeholder="De quoi allons-nous parler ?" id="message" name="message" tabindex="5" required></textarea>
-                        <span class="comments text-danger font-italic"><?php echo $messageErr ?></span>
+
                     </fieldset>
                     <!-- <fieldset> -->
                     <button name="send" type="submit" id="contact-submit" data-submit="...Sending">ENVOYER</button>

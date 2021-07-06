@@ -71,7 +71,7 @@ function callNav()
                     <a href="branding.php">
                         <li>Branding</li>
                     </a>
-                    <a href="#">
+                    <a href="contact.php">
                         <li>Contact</li>
                     </a>
 

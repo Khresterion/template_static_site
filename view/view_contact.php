@@ -1,5 +1,5 @@
 <?php
-require_once 'controller/mail.php';
+// require_once 'controller/mail.php';
 
 
 function callContact()
@@ -42,33 +42,23 @@ function callContact()
                     </div>
 
                     <fieldset>
-                        <input placeholder="Nom" type="text" id="name" name="name" tabindex="1" size="60" autofocus required>
-
+                        <input placeholder="Name" type="text" id="name" name="name" tabindex="1" size="60" autofocus>
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Mail" id="mail" type="email" name="mail" tabindex="2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                        <input placeholder="Mail" id="mail" type="email" name="mail" tabindex="2">
                         <span class="error" aria-live="polite"></span>
-
                     </fieldset>
                     <fieldset>
-                        <input placeholder="Téléphone (optionel)" id="tel" name="tel" type="tel" tabindex="3">
+                        <input placeholder="Phone (optional)" id="tel" name="tel" type="tel" tabindex="3">
                     </fieldset>
                     <fieldset>
-                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-                            <option selected>Projet</option>
-                            <option value="1">Devis</option>
-                            <option value="2">Conseils</option>
-                            <option value="3">Stage</option>
-                            <option value="3">Autre</option>
-                        </select>
-                        <!-- <input placeholder="Sujet" id="subject" name="subject" type="text" tabindex="4"> -->
+                        <input placeholder="Subject" id="subject" name="subject" type="text" tabindex="4">
                     </fieldset>
                     <fieldset>
-                        <textarea placeholder="De quoi allons-nous parler ?" id="message" name="message" tabindex="5" required></textarea>
-
+                        <textarea placeholder="What are we going to discuss ?" id="message" name="message" tabindex="5"></textarea>
                     </fieldset>
                     <!-- <fieldset> -->
-                    <button name="send" type="submit" id="contact-submit" data-submit="...Sending">ENVOYER</button>
+                    <button name="send" type="submit" id="contact-submit" data-submit="...Sending">SEND</button>
                     <?php if ($success) : ?>
                         <div class="alert alert-success alert-dismissible fade show" role="alert"><button type=" button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>

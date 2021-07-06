@@ -1,7 +1,6 @@
 <?php require_once 'view/view_header.php' ?>
 <?php require_once 'view/view_footer.php' ?>
 <?php require_once 'view/view_contact.php' ?>
-<?php require_once 'controller/mail.php' ?>
 
 
 <?php callHead("LogOn Company", "assets/style/contact.css") ?>

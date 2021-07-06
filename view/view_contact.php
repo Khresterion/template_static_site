@@ -5,12 +5,25 @@ function callContact()
 {
     $success = $error = null;
     $nomErr = $messageErr =  $emailErr = "";
+    if (isset($_POST['send'])) {
+        $position_arobase = strpos($_POST['mail'], '@');
+        if ($position_arobase === false) {
+        } else {
+            $return = mail('axios.ludis@gmail.com', 'Envoi depuis la page Contact de Logon Company', $_POST['message'], 'From: ' . $_POST['mail']);
+            if ($return) {
+                $success = "<strong>Succès!</strong> Votre message a bien été envoyé!";
+            } else {
+                $error = "Il y a une erreur par ici...";
+            }
+        }
+        // header("location: contact.php");
+    }
 ?>
     <section class="header-page-2"></section>
     <section id="section1">
         <div class=" container_section_1">
             <div class="formulaire">
-                <form id="contact" action="controller/mail.php" method="post">
+                <form id="contact" action="" method="post">
                     <div class="header">
                         <div class="headerTitles">
                             <h3>Contactez-nous</h3>

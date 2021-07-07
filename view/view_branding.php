@@ -7,7 +7,7 @@ function callBranding()
     <section id="section1">
         <div class="container container_section_1" data-aos="fade-up" data-aos-duration="2000">
             <div class="eye-img">
-                <img src="assets/images/NetworkHome.png" alt="eye" class="img-fluid img-anim">
+                <img src="../assets/images/NetworkHome.png" alt="eye" class="img-fluid img-anim">
             </div>
             <div class="eye-txt">
                 <p>Utiliser les réseaux sociaux à bon escient est <span class="text-important">nécessaire</span> si vous souhaitez <span class="text-important">vous affirmer</span> sur la toile.
@@ -30,7 +30,7 @@ function callBranding()
     <section id="section2">
         <div class=" container container_section_2" data-aos="fade-up" data-aos-duration="2000">
             <div class="eye-img">
-                <img src="assets/images/Social-network-logon-company-community-manager-1024x212.png" alt="eye" class="img-fluid img-anim">
+                <img src="../assets/images/Social-network-logon-company-community-manager-1024x212.png" alt="eye" class="img-fluid img-anim">
             </div>
             <div class="eye-txt">
                 <p>Utiliser les réseaux sociaux à bon escient est <span class="text-important">nécessaire</span> si vous souhaitez <span class="text-important">vous affirmer</span> sur la toile.

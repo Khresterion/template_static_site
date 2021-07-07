@@ -27,16 +27,16 @@ function callImpressions()
     <section id="section2">
         <div class=" container_section_2">
             <div id="slideshow">
-                <div><img src="assets/images/DépliantPrix.png" alt="corporate"></div>
-                <div><img src="assets/images/ChemisePrix.png" alt="corporate"></div>
-                <div><img src="assets/images/BâchePrix.png" alt="corporate"></div>
-                <div><img src="assets/images/VisitCardPrice.png" alt="corporate"></div>
-                <div><img src="assets/images/AffichePrix.png" alt="corporate"></div>
-                <div><img src="assets/images/SacsLGNC.png" alt="corporate"></div>
-                <div><img src="assets/images/FlyerPrix.png" alt="corporate"></div>
-                <div><img src="assets/images/OriflammePrix.png" alt="corporate"></div>
-                <div><img src="assets/images/RollUpPrix.png" alt="corporate"></div>
-                <div><img src="assets/images/Clothes01LGNC.png" alt="corporate"></div>
+                <div><img src="../assets/images/DépliantPrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/ChemisePrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/BâchePrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/VisitCardPrice.png" alt="corporate"></div>
+                <div><img src="../assets/images/AffichePrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/SacsLGNC.png" alt="corporate"></div>
+                <div><img src="../assets/images/FlyerPrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/OriflammePrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/RollUpPrix.png" alt="corporate"></div>
+                <div><img src="../assets/images/Clothes01LGNC.png" alt="corporate"></div>
             </div>
         </div>
     </section>
@@ -56,22 +56,22 @@ function callImpressions()
             </div>
         </div>
         <div class="img-corporate">
-            <img src="assets/images/Camion-foodtruck-impression-vinyle-logon-company.jpg" alt="camion">
-            <img src="assets/images/Panneau-dibond-alu-impression-logon-company.jpg" alt="panneau">
-            <img src="assets/images/Carte-fidelite-impression-logon-company.jpg" alt="fidelite">
-            <img src="assets/images/Serigraphie-couture-broderie-logon-company.jpg" alt="serigraphie">
+            <img src="../assets/images/Camion-foodtruck-impression-vinyle-logon-company.jpg" alt="camion">
+            <img src="../assets/images/Panneau-dibond-alu-impression-logon-company.jpg" alt="panneau">
+            <img src="../assets/images/Carte-fidelite-impression-logon-company.jpg" alt="fidelite">
+            <img src="../assets/images/Serigraphie-couture-broderie-logon-company.jpg" alt="serigraphie">
         </div>
         <div class="img-corporate">
-            <img src="assets/images/Maconnerie-mestrejean-cartes-visite-impression-logon-company.jpg" alt="cartes">
-            <img src="assets/images/Depliant-impression-Couleur-Nature-beton-cire-logon-company.jpg" alt="depliant">
-            <img src="assets/images/Cartes-visite-DJ-musique-impression-qualite-logon-company.jpg" alt="cartes">
-            <img src="assets/images/Cartes-visite-vernis-selectif-qualite-logon-company.jpg" alt="cartes">
+            <img src="../assets/images/Maconnerie-mestrejean-cartes-visite-impression-logon-company.jpg" alt="cartes">
+            <img src="../assets/images/Depliant-impression-Couleur-Nature-beton-cire-logon-company.jpg" alt="depliant">
+            <img src="../assets/images/Cartes-visite-DJ-musique-impression-qualite-logon-company.jpg" alt="cartes">
+            <img src="../assets/images/Cartes-visite-vernis-selectif-qualite-logon-company.jpg" alt="cartes">
         </div>
         <div class="img-corporate">
-            <img src="assets/images/adhesif-impression-application-Kopp-Marechalerie-camion-logon-company.jpg" alt="burger">
-            <img src="assets/images/Depliant-impression-Couleur-Nature-beton-cire-logon-company.jpg" alt="tartines">
-            <img src="assets/images/Le-Marchand-Menuiserie-cartes-visite.jpg" alt="frites">
-            <img src="assets/images/Depliant-impression-My-Eazy-Car.jpg">
+            <img src="../assets/images/adhesif-impression-application-Kopp-Marechalerie-camion-logon-company.jpg" alt="burger">
+            <img src="../assets/images/Depliant-impression-Couleur-Nature-beton-cire-logon-company.jpg" alt="tartines">
+            <img src="../assets/images/Le-Marchand-Menuiserie-cartes-visite.jpg" alt="frites">
+            <img src="../assets/images/Depliant-impression-My-Eazy-Car.jpg">
         </div>
 
     </section>

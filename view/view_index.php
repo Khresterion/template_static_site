@@ -18,7 +18,7 @@ function callIndex()
 
             </div>
             <div class="cheque-img">
-                <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
+                <img src="../assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
             </div>
 
 
@@ -31,7 +31,7 @@ function callIndex()
             <!-- <h3>Section Heading</h3> -->
 
             <div class="card" style="width: 18rem;">
-                <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
+                <img src="../assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
                 <div class="card-body">
                     <h5 class="card-title">Dernière création web</h5>
                     <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
@@ -41,7 +41,7 @@ function callIndex()
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="assets/images/JDPWeb.png" class="card-img-top" alt="elabor">
+                <img src="../assets/images/JDPWeb.png" class="card-img-top" alt="elabor">
                 <div class="card-body">
                     <h5 class="card-title">Dernier logo</h5>
                     <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
@@ -51,7 +51,7 @@ function callIndex()
             </div>
 
             <div class="card" style="width: 18rem;">
-                <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
+                <img src="../assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
                 <div class="card-body">
                     <h5 class="card-title">L'entreprise du moment</h5>
                     <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
@@ -183,23 +183,23 @@ function callIndex()
 
             <div class="row_section_4 text-center" data-aos="fade-up">
                 <div class="pb-4">
-                    <img src="assets/images/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
+                    <img src="../assets/images/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Design</figcaption>
                 </div>
                 <div class="pb-4">
-                    <img src="assets/images/AppJDPTel.png" alt="app" class="img-thumbnail img-section-4">
+                    <img src="../assets/images/AppJDPTel.png" alt="app" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Sites et applications web</figcaption>
                 </div>
                 <div class="pb-4">
-                    <img src="assets/images/WebDesignIcon.png" alt="design" class="img-thumbnail img-section-4">
+                    <img src="../assets/images/WebDesignIcon.png" alt="design" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Stratégie de contenu</figcaption>
                 </div>
                 <div class="pb-4">
-                    <img src="assets/images/RollUpHome.png" alt="strategie" class="img-thumbnail img-section-4">
+                    <img src="../assets/images/RollUpHome.png" alt="strategie" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Impressions tout support</figcaption>
                 </div>
                 <div class="pb-4">
-                    <img src="assets/images/NetworkHome.png" alt="banding" class="img-thumbnail img-section-4">
+                    <img src="../assets/images/NetworkHome.png" alt="banding" class="img-thumbnail img-section-4">
                     <figcaption class="figure-caption">Branding</figcaption>
                 </div>
 

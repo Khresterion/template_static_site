@@ -7,7 +7,7 @@ function callPhotos()
     <section id="section1">
         <div class="container container_section_1" data-aos="fade-up" data-aos-duration="2000">
             <div class="eye-img">
-                <img src="../assets/images/Photo-logon-company-oeil-1024x613.png" alt="eye" class="img-fluid img-anim">
+                <img src="assets/images/Photo-logon-company-oeil-1024x613.png" alt="eye" class="img-fluid img-anim">
             </div>
             <div class="eye-txt">
                 <p>Mettre <span class="text-important">en avant</span> votre entreprise en utilisant <span class="text-important">l’image</span> est primordial !
@@ -32,15 +32,15 @@ function callPhotos()
             <hr class="hr-2" data-aos="fade-up" data-aos-duration="2000">
             <div class="row_section_2" data-aos="fade-up" data-aos-duration="3000">
                 <div class="p-4">
-                    <img src="../assets/images/93.png" alt="logos" class="img-section-2">
+                    <img src="assets/images/93.png" alt="logos" class="img-section-2">
                     <p class="figure-caption pt-3">Sur un réseau social comme Facebook, 93% des publications accompagnées d’images engendre un <span class="text-important">engagement</span> de l’internaute.</p>
                 </div>
                 <div class="p-4">
-                    <img src="../assets/images/200.png" alt="app" class="img-section-2">
+                    <img src="assets/images/200.png" alt="app" class="img-section-2">
                     <p class="figure-caption pt-3">Mettre en avant vos collaborateurs par la photo suscitent 200 fois plus de chance de <span class="text-important">convertir</span> les visiteurs en une vente.</p>
                 </div>
                 <div class="p-4">
-                    <img src="../assets/images/60k.png" alt="design" class="img-section-2">
+                    <img src="assets/images/60k.png" alt="design" class="img-section-2">
                     <p class="figure-caption pt-3">Par rapport à un texte, la <span class="text-important">transmission</span> d’une image au cerveau est 60.000 fois plus rapide.
                         Il est conseillé de joindre des images à vos textes.</p>
                 </div>
@@ -61,15 +61,15 @@ function callPhotos()
 
             </div>
             <div class="eye-img">
-                <img src="../assets/images/Set-design-picture-photo-logon-company.png" alt="design" class="img-fluid img-anim">
+                <img src="assets/images/Set-design-picture-photo-logon-company.png" alt="design" class="img-fluid img-anim">
             </div>
 
 
         </div>
         <div class="tryptique">
-            <img src="../assets/images/Burger-frites-delice.jpg" alt="burger" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
-            <img src="../assets/images/Tartines-idee-repas-logon-company.jpg" alt="tartines" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
-            <img src="../assets/images/Frites-repas-delice-logon-company.jpg" alt="frites" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/Burger-frites-delice.jpg" alt="burger" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/Tartines-idee-repas-logon-company.jpg" alt="tartines" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/Frites-repas-delice-logon-company.jpg" alt="frites" class="img-thumbnail" data-aos="fade-up" data-aos-duration="3000">
         </div>
     </section>
 
@@ -86,20 +86,20 @@ function callPhotos()
 
             </div>
             <div class="eye-img">
-                <img src="../assets/images/Corporate-picture-photo-logon-company.png" alt="corporate" class="img-fluid img-anim">
+                <img src="assets/images/Corporate-picture-photo-logon-company.png" alt="corporate" class="img-fluid img-anim">
             </div>
 
 
         </div>
         <div class="img-corporate">
-            <img src="../assets/images/Apple-ordinateur-bureau-work.jpg" alt="burger" class="" data-aos="fade-down-right" data-aos-duration="3000">
-            <img src="../assets/images/building-business-tower-corporate.jpg" alt="tartines" class="" data-aos="fade-down" data-aos-duration="3000">
-            <img src="../assets/images/Bar-Restaurant-photo.jpg" alt="frites" class="" data-aos="fade-down-left" data-aos-duration="3000">
+            <img src="assets/images/Apple-ordinateur-bureau-work.jpg" alt="burger" class="" data-aos="fade-down-right" data-aos-duration="3000">
+            <img src="assets/images/building-business-tower-corporate.jpg" alt="tartines" class="" data-aos="fade-down" data-aos-duration="3000">
+            <img src="assets/images/Bar-Restaurant-photo.jpg" alt="frites" class="" data-aos="fade-down-left" data-aos-duration="3000">
         </div>
         <div class="img-corporate">
-            <img src="../assets/images/DJ-Platines-controleur-photo-corporate.jpg" alt="burger" class="" data-aos="fade-up-right" data-aos-duration="3000">
-            <img src="../assets/images/Bureau-chaise-travail-corporate.jpg" alt="tartines" class="" data-aos="fade-up" data-aos-duration="3000">
-            <img src="../assets/images/magasin-vetements-photo-corporate.jpg" alt="frites" class="" data-aos="fade-up-left" data-aos-duration="3000">
+            <img src="assets/images/DJ-Platines-controleur-photo-corporate.jpg" alt="burger" class="" data-aos="fade-up-right" data-aos-duration="3000">
+            <img src="assets/images/Bureau-chaise-travail-corporate.jpg" alt="tartines" class="" data-aos="fade-up" data-aos-duration="3000">
+            <img src="assets/images/magasin-vetements-photo-corporate.jpg" alt="frites" class="" data-aos="fade-up-left" data-aos-duration="3000">
         </div>
     </section>
 
@@ -116,13 +116,13 @@ function callPhotos()
 
             </div>
             <div class="eye-img">
-                <img src="../assets/images/Photo-perso-picture-logon-company.png" alt="design" class="img-fluid img-anim">
+                <img src="assets/images/Photo-perso-picture-logon-company.png" alt="design" class="img-fluid img-anim">
             </div>
         </div>
 
         <div class="container5">
-            <a href="../assets/images/echalottes-repas-main.jpg" data-lightbox="homePortfolio">
-                <img src="../assets/images/echalottes-repas-main.jpg" alt="echalottes-repas-main">
+            <a href="assets/images/echalottes-repas-main.jpg" data-lightbox="homePortfolio">
+                <img src="assets/images/echalottes-repas-main.jpg" alt="echalottes-repas-main">
             </a>
 
 

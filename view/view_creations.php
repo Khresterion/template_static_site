@@ -72,14 +72,14 @@ function callCreations()
 
             </div>
             <div class="eye-img" data-aos="fade-up" data-aos-duration="3000">
-                <img src="../assets/images/JDPWeb.png" alt="design" class="img-fluid img-anim">
+                <img src="assets/images/JDPWeb.png" alt="design" class="img-fluid img-anim">
             </div>
 
         </div>
         <hr class="hr-2">
         <div class="JDP-app">
             <div class="JDP-mobile text-center">
-                <img src="../assets/images/AppJDPTel.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
+                <img src="assets/images/AppJDPTel.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
                 <h3>l'app mobile just do paint</h3>
                 <p>A la demande du client, en plus d'une identité visuelle et d'un site web, une application a été développée, permettant de retrouver plus simplement les “Murs” en question. <br>
                     Une manière originale de visiter St Brieuc et qui simplifie la balade pour l'utilisateur.
@@ -90,7 +90,7 @@ function callCreations()
                 </p>
             </div>
             <div class="JDP-video embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="../assets/images/JDPLogoAnim01_1.mp4" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="assets/images/JDPLogoAnim01_1.mp4" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -100,18 +100,18 @@ function callCreations()
             <h3 class="text-center pb-3" data-aos="fade-up" data-aos-duration="2000">quelques logos</h3>
         </div>
         <div id="slideshow">
-            <div><img src="../assets/images/1.png" alt="corporate"></div>
-            <div><img src="../assets/images/2.png" alt="corporate"></div>
-            <div><img src="../assets/images/3.png" alt="corporate"></div>
-            <div><img src="../assets/images/4.png" alt="corporate"></div>
-            <div><img src="../assets/images/5.png" alt="corporate"></div>
-            <div><img src="../assets/images/6.png" alt="corporate"></div>
-            <div><img src="../assets/images/7.png" alt="corporate"></div>
-            <div><img src="../assets/images/8.png" alt="corporate"></div>
-            <div><img src="../assets/images/9.png" alt="corporate"></div>
-            <div><img src="../assets/images/10.png" alt="corporate"></div>
-            <div><img src="../assets/images/11.png" alt="corporate"></div>
-            <div><img src="../assets/images/12.png" alt="corporate"></div>
+            <div><img src="assets/images/1.png" alt="corporate"></div>
+            <div><img src="assets/images/2.png" alt="corporate"></div>
+            <div><img src="assets/images/3.png" alt="corporate"></div>
+            <div><img src="assets/images/4.png" alt="corporate"></div>
+            <div><img src="assets/images/5.png" alt="corporate"></div>
+            <div><img src="assets/images/6.png" alt="corporate"></div>
+            <div><img src="assets/images/7.png" alt="corporate"></div>
+            <div><img src="assets/images/8.png" alt="corporate"></div>
+            <div><img src="assets/images/9.png" alt="corporate"></div>
+            <div><img src="assets/images/10.png" alt="corporate"></div>
+            <div><img src="assets/images/11.png" alt="corporate"></div>
+            <div><img src="assets/images/12.png" alt="corporate"></div>
         </div>
     </section>
 <?php

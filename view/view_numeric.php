@@ -10,7 +10,7 @@ function callNumeric()
     <section id="thanks">
         <div class="container container_section_numeric" data-aos="fade-right" data-aos-duration="1500">
             <div class="cheque-img">
-                <img src="../assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim">
+                <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" class="img-fluid img-anim">
             </div>
             <div class="cheque-txt">
                 <p><strong>Une prise en charge financière de vos prestations pour un accompagnement<br />par un expert du numérique : réflexion sur la création de sites,<br />aide et appui au référencement.</strong></p>
@@ -34,7 +34,7 @@ function callNumeric()
                 </ul>
             </div>
             <div class="cheque-img">
-                <img src="../assets/images/phone-logon-company-lgnc-g.png" alt="apple-phone" class="img-fluid img-anim">
+                <img src="assets/images/phone-logon-company-lgnc-g.png" alt="apple-phone" class="img-fluid img-anim">
             </div>
         </div>
 

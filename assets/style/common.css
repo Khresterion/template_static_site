@@ -410,6 +410,7 @@ img {
   height: 100vh;
   background-size: cover;
   background-image: url(../images/dark-wallpapers.jpg);
+  background-position: top;
 }
 
 /*********************************************************************************/

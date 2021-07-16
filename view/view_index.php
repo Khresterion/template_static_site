@@ -3,73 +3,94 @@
 function callIndex()
 {
 ?>
-
+<main>
     <section id="section1">
-        <div class="container_section_1">
-
-            <div class="cheque-txt" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
-                <h3 class="cheque-title mt-3">Connectons-nous ensemble</h3>
+        <div class="container__section1">
+            <div class="section1__txt">
+                <h3 class="section1__txt--title mt-3">Connectons-nous ensemble</h3>
                 <p>Texte de présentation de LoGon,
                     <br>
                     Tour rapide des services proposés,
                     <br>
-                    <a href="" class="button3">Call to action</a>
+                  
                 </p>
-
+                <a href="" class="btn btn--animated btn--white">Call to action</a>
             </div>
-            <div class="cheque-img">
+            <div class="section1__img">
                 <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
             </div>
-
-
         </div>
     </section>
 
     <!-- this section is slanted using the 'skew' attribute -->
     <section id="section2">
-        <div class="container container_section_2">
-            <!-- <h3>Section Heading</h3> -->
+        <div class="container__section2">
 
-            <div class="card" style="width: 18rem;">
+        <div class="section2__card">
                 <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
-                <div class="card-body">
-                    <h5 class="card-title">Dernière création web</h5>
-                    <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
+                <div class="card__body">
+                    <h5 class="card__body--title">Dernière création web</h5>
+                    <p class="card__body--text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
-                    <a href="#" class="btn btn-outline-info">Lire l'article</a>
+                    <a href="#popup" class="btn btn--animated btn--green">Lire l'article</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+        <div class="container-card">
+      <div class="card">
+        <div class="image-zoom"></div>
+        <div class="bloc-content-show">
+          <h2>
+            <span>Bryan Cranston</span>
+            <!-- <img src="cloud-computing.svg" alt="icon download"> -->
+          </h2>
+          <hr>
+          <p>
+            <span>FILMS :</span>
+            Argo, Saving Private Ryan, Drive.
+          </p>
+          <p>
+            <span>
+              RECOMPENSE :
+            </span>
+            Emmy Award for Breaking Bad in 2009.
+          </p>
+        </div>
+      </div>
+      <div class="bloc-focus-top"></div>
+      <div class="bloc-focus-bottom"></div>
+    </div>
+
+            <div class="section2__card">
                 <img src="assets/images/JDPWeb.png" class="card-img-top" alt="elabor">
-                <div class="card-body">
-                    <h5 class="card-title">Dernier logo</h5>
-                    <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
+                <div class="card__body">
+                    <h5 class="card__body--title">Dernier logo</h5>
+                    <p class="card__body--text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
                     <a href="#" class="btn btn-outline-info">Lire l'article</a>
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <!-- <div class="section2__card">
                 <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
-                <div class="card-body">
-                    <h5 class="card-title">L'entreprise du moment</h5>
-                    <p class="card-text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
+                <div class="card__body">
+                    <h5 class="card__body--title">L'entreprise du moment</h5>
+                    <p class="card__body--text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
                     <a href="#" class="btn btn-outline-info">Lire l'article</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
     <section id="section3">
         <h3 class='text-center mt-4' data-aos="fade-up" data-aos-duration="2000">L'agence</h3>
         <hr class="hr-1" data-aos="fade-up" data-aos-duration="2000">
-        <div class="container-fluid container_section_3" data-aos="fade-up" data-aos-duration="3000">
-            <div>
+        <div class="container__section3" data-aos="fade-up" data-aos-duration="3000">
+            <div class="section3__txt">
                 <p>STAFF / présentation du fondateur et du super developpeur web</p>
             </div>
-            <div>
+            <div class="section3__txt">
                 <p>Une entreprise à taille humaine <br>
                     moins d'intermédiaires, prix plus ronds, des spécialistes complémentaires. <br>
                     Reprise des coordonnées</p>
@@ -176,30 +197,30 @@ function callIndex()
 
     <section id="section4">
 
-        <div class="container container_section_4" data-aos="fade-up" data-aos-duration="2000">
-            <h3 class="text-center">élaborer maintenant la réussite de demain</h3>
+        <div class="container__section4" data-aos="fade-up" data-aos-duration="2000">
+            <h3>élaborer maintenant la réussite de demain</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
 
-            <div class="row_section_4 text-center" data-aos="fade-up">
-                <div class="pb-4">
-                    <img src="assets/images/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img-section-4">
+            <div class="section4__img text-center" data-aos="fade-up">
+                <div class="img__figure pb-4">
+                    <img src="assets/images/OPtitCreuxLGNC.png" alt="logos" class="img-thumbnail img__figure--logo">
                     <figcaption class="figure-caption">Design</figcaption>
                 </div>
-                <div class="pb-4">
-                    <img src="assets/images/AppJDPTel.png" alt="app" class="img-thumbnail img-section-4">
+                <div class="img__figure pb-4">
+                    <img src="assets/images/AppJDPTel.png" alt="app" class="img-thumbnail img__figure--logo">
                     <figcaption class="figure-caption">Sites et applications web</figcaption>
                 </div>
-                <div class="pb-4">
-                    <img src="assets/images/WebDesignIcon.png" alt="design" class="img-thumbnail img-section-4">
+                <div class="img__figure pb-4">
+                    <img src="assets/images/WebDesignIcon.png" alt="design" class="img-thumbnail img__figure--logo">
                     <figcaption class="figure-caption">Stratégie de contenu</figcaption>
                 </div>
-                <div class="pb-4">
-                    <img src="assets/images/RollUpHome.png" alt="strategie" class="img-thumbnail img-section-4">
+                <div class="img__figure pb-4">
+                    <img src="assets/images/RollUpHome.png" alt="strategie" class="img-thumbnail img__figure--logo">
                     <figcaption class="figure-caption">Impressions tout support</figcaption>
                 </div>
-                <div class="pb-4">
-                    <img src="assets/images/NetworkHome.png" alt="banding" class="img-thumbnail img-section-4">
+                <div class="img__figure pb-4">
+                    <img src="assets/images/NetworkHome.png" alt="banding" class="img-thumbnail img__figure--logo">
                     <figcaption class="figure-caption">Branding</figcaption>
                 </div>
 
@@ -208,6 +229,42 @@ function callIndex()
         </div>
 
     </section>
+</main>
+
+<div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="assets/images/ElaborSensLGNC.png" alt="Tour photo" class="popup__img" />
+          
+        </div>
+        <div class="popup__right">
+          <a href="#section2" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            Vitae semper quis lectus nulla at volutpat diam ut venenatis.
+            Malesuada pellentesque elit eget gravida cum sociis natoque
+            penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+            laoreet. Gravida neque convallis a cras semper. Molestie at
+            elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet
+            nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet
+            sit. Amet massa vitae tortor condimentum lacinia quis vel eros
+            donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
+            porta.
+          </p>
+        </div>
+      </div>
+    </div>
+
 <?php
 }
 ?>

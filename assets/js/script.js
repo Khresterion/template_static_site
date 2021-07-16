@@ -1,4 +1,8 @@
 AOS.init();
+let rellax = new Rellax(".rellax");
+
+
+
 
 // SCROLL TO TOP
 $(function () {
@@ -32,7 +36,6 @@ function scrollToTop() {
 }
 
 // SLIDE SHOW
-
 $("#slideshow > div:gt(0)").hide();
 
 setInterval(function () {
@@ -44,60 +47,92 @@ setInterval(function () {
     .appendTo("#slideshow");
 }, 3000);
 
-// CONTACT
-// function validateForm() {
-//   let name = document.getElementById("name").value;
-//   if (name == "") {
-//     document.querySelector(".status").innerHTML = "Name cannot be empty";
-//     return false;
-//   }
-//   let email = document.getElementById("email").value;
-//   if (email == "") {
-//     document.querySelector(".status").innerHTML = "Email cannot be empty";
-//     return false;
-//   } else {
-//     let re =
-//       /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-//     if (!re.test(email)) {
-//       document.querySelector(".status").innerHTML = "Email format invalid";
-//       return false;
-//     }
-//   }
-//   let subject = document.getElementById("subject").value;
-//   if (subject == "") {
-//     document.querySelector(".status").innerHTML = "Subject cannot be empty";
-//     return false;
-//   }
-//   let message = document.getElementById("message").value;
-//   if (message == "") {
-//     document.querySelector(".status").innerHTML = "Message cannot be empty";
-//     return false;
-//   }
-//   document.querySelector(".status").innerHTML = "Sending...";
+// CARD ZOOM
+const card = document.querySelector(".card");
+const imageZoom = document.querySelector('.image-zoom')
+const blocFocusTop = document.querySelector(".bloc-focus-top");
+const blocFocusBottom = document.querySelector(".bloc-focus-bottom");
+const blocContent = document.querySelector(".bloc-content-show");
+const title = document.querySelector(".bloc-content-show h2");
+const downloadLogo = document.querySelector(".bloc-content-show img");
+const separation = document.querySelector(".card hr");
+const allTxt = document.querySelectorAll(".card p");
+
+const TLANIM = gsap.timeline({ paused: true });
+
+TLANIM
+  .fromTo(imageZoom, {scale: 1}, {scale: 2, y: -50, x:200, duration: 0.4,  ease:ExpoScaleEase.config(1, 2,"power2.inOut")})
+  .to(blocFocusTop, { top: -30, left: -30, duration: 0.1 }, 0.5)
+  .to(blocFocusBottom, { bottom: -30, right: -30, duration: 0.1 }, "-=0.1")
+  .to(blocContent, { bottom: 200, duration: 0.2 }, '-=0.1')
+  .from(title, { opacity: 0, duration: 0.2 }, '-=0.1')
+  .from(downloadLogo, {scale: 0, duration: 0.2})
+  .from(separation, { width: 0, duration: 0.2 }, '-=0.2')
+  .from(allTxt, { opacity: 0, duration: 0.3, stagger: 0.2 });
+
+card.addEventListener("mouseenter", () => {
+  TLANIM.play();
+});
+
+card.addEventListener("mouseleave", () => {
+     TLANIM.reverse();
+});
+
+
+gsap.to(".section1__txt--title", {
+  duration: 0.2,
+  opacity: 1,
+  x: 0,
+  stagger: 0.2,
+  autoAlpha: 1,
+  // ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section1__img",
+    markers: true,
+    start: "top 1%",
+    end: "bottom 80%",
+    toggleActions: "play complete reverse reset",
+    scrub: 3,
+  },
+});
+
+gsap.to(".section1__txt a", {
+  duration: 0.5,
+  opacity: 1,
+  y: 0,
+  delay: 0.2,
+  stagger: 0.2,
+  autoAlpha: 1,
+  // ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section1__img",
+    markers: true,
+    start: "top 1%",
+    end: "bottom 80%",
+    toggleActions: "play complete reverse reset",
+    scrub: 5,
+  },
+});
+
+ScrollTrigger.create({
+  trigger: "#section1",
+  pin: true,
+  markers: true
+});
+
+// const logo = document.querySelector('.logo--img');
+// const title = document.querySelector('.hero h1');
+// const title2 = document.querySelector('.hero h3');
+// const nav = document.querySelector('.navigation');
+// const vertical = document.querySelector('.middle-line');
+
+// window.addEventListener('load', initAnim)
+
+// function initAnim(){
+
+// const TLFADE = gsap.timeline();
+
+// TLFADE
+// .to(title, {autoAlpha: 1, y: 0, delay: .2})
+
 // }
-
-// document.getElementById("status").innerHTML = "Sending...";
-// formData = {
-//   name: $("input[name=name]").val(),
-//   email: $("input[name=email]").val(),
-//   subject: $("input[name=subject]").val(),
-//   message: $("textarea[name=message]").val(),
-// };
-
-// $.ajax({
-//   url: "mail.php",
-//   type: "POST",
-//   data: formData,
-//   success: function (data, textStatus, jqXHR) {
-//     $("#status").text(data.message);
-//     if (data.code)
-//       //If mail was sent successfully, reset the form.
-//       $("#contact-form")
-//         .closest("form")
-//         .find("input[type=text], textarea")
-//         .val("");
-//   },
-//   error: function (jqXHR, textStatus, errorThrown) {
-//     $("#status").text(jqXHR);
-//   },
-// });

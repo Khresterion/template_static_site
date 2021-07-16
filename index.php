@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company", "assets/style/index.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 <?php callHeaderImage() ?>
 
 <?php callIndex() ?>

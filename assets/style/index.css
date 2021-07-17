@@ -67,13 +67,12 @@ section {
       text-align: center;
       /* margin: auto; */
       display: flex;
-      /* height: 80vh; */
       transform: translateX(500px);
       opacity: 0;
     }
     .section1__img img{
       margin-top: 5rem;
-height: 80%;
+      height: 80%;
     }
 
 /*********************************************************************************/
@@ -414,6 +413,10 @@ svg {
     margin-top: -1rem;
     padding: 15rem 15rem;
   }
+}
+
+@media screen and (max-width: 1024px) {
+
 
 
 

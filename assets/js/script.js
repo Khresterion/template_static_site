@@ -85,7 +85,7 @@ gsap.to(".section1__txt--title", {
   // ease: "power4.out",
   scrollTrigger: {
     trigger: ".section1__img",
-    markers: true,
+    markers: false,
     start: "top 1%",
     end: "bottom 80%",
     toggleActions: "play complete reverse reset",
@@ -103,7 +103,7 @@ gsap.to(".section1__txt a", {
   // ease: "power4.out",
   scrollTrigger: {
     trigger: ".section1__img",
-    markers: true,
+    markers: false,
     start: "top 1%",
     end: "bottom 80%",
     toggleActions: "play complete reverse reset",
@@ -121,7 +121,7 @@ gsap.to(".section1__img", {
   ease: "power4.out",
   scrollTrigger: {
     trigger: ".section1__img",
-    markers: true,
+    markers: false,
     start: "top 1%",
     end: "bottom 80%",
     toggleActions: "play pause reverse reset",
@@ -132,7 +132,7 @@ gsap.to(".section1__img", {
 ScrollTrigger.create({
   trigger: "#section1",
   pin: true,
-  markers: true
+  markers: false
 });
 
 const logo = document.querySelector('.hero img');

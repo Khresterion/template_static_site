@@ -138,14 +138,14 @@ function callHeaderImage()
 
         <div class="head-image">
             <!-- Overlay -->
-            <div class="overlay"></div>
-            <!-- <div class="header-1"></div> -->
-            <!-- <div class="bg-video"> -->
+          <!--   <div class="overlay"></div> -->
+             <!-- <div class="header-1"></div>  -->
+             <div class="bg-video"> 
           <video class="bg-video__content" autoplay muted loop>
             <source src="assets/images/bg.mp4" type="video/mp4" />
 
           </video>
-        <!-- </div> -->
+        </div>
             <div class="hero">
                 <img src="assets/images/LGNCLogoWhite.png" alt="logo" class="logo--img rellax" data-rellax-speed="-2" >
                 <h1 class="rellax" data-rellax-speed="-3">LogOn compagny expert en communication<h1>        

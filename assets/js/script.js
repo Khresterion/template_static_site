@@ -1,9 +1,6 @@
 AOS.init();
 let rellax = new Rellax(".rellax");
 
-
-
-
 // SCROLL TO TOP
 $(function () {
   $(document).on("scroll", function () {
@@ -114,25 +111,38 @@ gsap.to(".section1__txt a", {
   },
 });
 
+gsap.to(".section1__img", {
+  duration: 1,
+  opacity: 1,
+  x: 0,
+  delay: 0.1,
+  stagger: 0.2,
+  // autoAlpha: 1,
+  ease: "power4.out",
+  scrollTrigger: {
+    trigger: ".section1__img",
+    markers: true,
+    start: "top 1%",
+    end: "bottom 80%",
+    toggleActions: "play pause reverse reset",
+    scrub: 5,
+  },
+});
+
 ScrollTrigger.create({
   trigger: "#section1",
   pin: true,
   markers: true
 });
 
-// const logo = document.querySelector('.logo--img');
-// const title = document.querySelector('.hero h1');
-// const title2 = document.querySelector('.hero h3');
-// const nav = document.querySelector('.navigation');
-// const vertical = document.querySelector('.middle-line');
+const logo = document.querySelector('.hero img');
+const h3 = document.querySelector('.hero h3');
 
-// window.addEventListener('load', initAnim)
+// gsap.to(logo, {y: 0, delay: 1, opacity: 1, duration: 5});
+// gsap.to(h3, {y: 0, delay: 2, opacity: 1, duration: 2});
 
-// function initAnim(){
+const TLHEADER = gsap.timeline();
 
-// const TLFADE = gsap.timeline();
-
-// TLFADE
-// .to(title, {autoAlpha: 1, y: 0, delay: .2})
-
-// }
+TLHEADER
+.from(logo, {y: 100, opacity: 0, duration: 1.25, delay: 0.5})
+.from(h3, {y: 100, opacity: 0})

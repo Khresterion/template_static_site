@@ -12,12 +12,13 @@ function callIndex()
                     <br>
                     Tour rapide des services proposés,
                     <br>
-                  
-                </p>
+                   </p>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla earum officia, asperiores nemo tempora pariatur optio, reprehenderit eum reiciendis, minus voluptatibus quisquam enim ullam ipsum vel error! Nostrum, voluptate vel?</p>
                 <a href="" class="btn btn--animated btn--white">Call to action</a>
             </div>
             <div class="section1__img">
-                <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
+                <img src="assets/images/phone-apple-imac-logon-company.png" alt="apple-phone" >
             </div>
         </div>
     </section>
@@ -32,34 +33,11 @@ function callIndex()
                     <h5 class="card__body--title">Dernière création web</h5>
                     <p class="card__body--text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
-                    <a href="#popup" class="btn btn--animated btn--green">Lire l'article</a>
+                    <a href="#popup" class="btn btn--animated btn--white">Lire l'article</a>
                 </div>
             </div>
 
-        <div class="container-card">
-      <div class="card">
-        <div class="image-zoom"></div>
-        <div class="bloc-content-show">
-          <h2>
-            <span>Bryan Cranston</span>
-            <!-- <img src="cloud-computing.svg" alt="icon download"> -->
-          </h2>
-          <hr>
-          <p>
-            <span>FILMS :</span>
-            Argo, Saving Private Ryan, Drive.
-          </p>
-          <p>
-            <span>
-              RECOMPENSE :
-            </span>
-            Emmy Award for Breaking Bad in 2009.
-          </p>
-        </div>
-      </div>
-      <div class="bloc-focus-top"></div>
-      <div class="bloc-focus-bottom"></div>
-    </div>
+
 
             <div class="section2__card">
                 <img src="assets/images/JDPWeb.png" class="card-img-top" alt="elabor">
@@ -67,19 +45,19 @@ function callIndex()
                     <h5 class="card__body--title">Dernier logo</h5>
                     <p class="card__body--text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
-                    <a href="#" class="btn btn-outline-info">Lire l'article</a>
+                        <a href="#popup" class="btn btn--animated btn--white">Lire l'article</a>
                 </div>
             </div>
 
-            <!-- <div class="section2__card">
+            <div class="section2__card">
                 <img src="assets/images/ElaborSensLGNC.png" class="card-img-top" alt="elabor">
                 <div class="card__body">
                     <h5 class="card__body--title">L'entreprise du moment</h5>
                     <p class="card__body--text">Elabor & Sens est une entreprise fondée par Annie Charbonnier.
                         De l’énergie, des idées, de l’envie, de la joie, de l’ambition, de la vitalité, c’est ce qui caractérise Annie Charbonnier et son entreprise.</p>
-                    <a href="#" class="btn btn-outline-info">Lire l'article</a>
+                        <a href="#popup" class="btn btn--animated btn--white">Lire l'article</a>
                 </div>
-            </div> -->
+            </div>
         </div>
     </section>
 
@@ -88,13 +66,42 @@ function callIndex()
         <hr class="hr-1" data-aos="fade-up" data-aos-duration="2000">
         <div class="container__section3" data-aos="fade-up" data-aos-duration="3000">
             <div class="section3__txt">
-                <p>STAFF / présentation du fondateur et du super developpeur web</p>
+                <div class="container-card">
+      <div class="card">
+        <div class="image-zoom"></div>
+        <div class="bloc-content-show">
+          <h2>
+            <span>Michaël Oger</span>
+          </h2>
+          <hr>
+          <p>
+            <!-- <span>FILMS :</span> -->
+            Fondateur de LogOn Company
+          </p>
+          <!-- <p>
+            <span>
+              RECOMPENSE :
+            </span>
+            Emmy Award for Breaking Bad in 2009.
+          </p> -->
+        </div>
+      </div>
+      <div class="bloc-focus-top"></div>
+      <div class="bloc-focus-bottom"></div>
+    </div>
             </div>
             <div class="section3__txt">
                 <p>Une entreprise à taille humaine <br>
                     moins d'intermédiaires, prix plus ronds, des spécialistes complémentaires. <br>
                     Reprise des coordonnées</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi aspernatur exercitationem fugit eum iure ipsam, vitae quo nemo, adipisci deserunt consequatur eligendi quos ab possimus unde nesciunt sed. Facere, natus?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum unde porro atque molestiae eaque veritatis error ad qui corporis? Ducimus repellat fugiat ipsum ipsam odit aspernatur itaque amet officia.
+                    </p>
             </div>
+
+
+
+
         </div>
     </section>
 
@@ -201,6 +208,7 @@ function callIndex()
             <h3>élaborer maintenant la réussite de demain</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate beatae officia officiis alias totam maiores magni recusandae omnis autem possimus aliquid asperiores, nostrum neque culpa et, soluta, ratione quasi voluptatibus illum vero quas eum! Animi praesentium voluptatem temporibus. Error qui sapiente nobis excepturi quae provident.</p>
 
             <div class="section4__img text-center" data-aos="fade-up">
                 <div class="img__figure pb-4">
@@ -239,12 +247,12 @@ function callIndex()
         </div>
         <div class="popup__right">
           <a href="#section2" class="popup__close">&times;</a>
-          <h2 class="heading-secondary u-margin-bottom-small">
-            Start booking now
+          <h2 class="heading-secondary">
+            Elabor & sens
           </h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">
+          <!-- <h3 class="heading-tertiary u-margin-bottom-small">
             Important &ndash; Please read these terms before booking
-          </h3>
+          </h3> -->
           <p class="popup__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed

@@ -496,7 +496,7 @@ img {
     transparent 50%,
     #fff 50%
   );
-  background-size: 300%;
+  background-size: 400%;
   transition: all 0.4s;
 }
 .navigation__link:link span,

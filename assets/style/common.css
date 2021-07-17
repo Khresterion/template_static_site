@@ -496,7 +496,7 @@ img {
     transparent 50%,
     #fff 50%
   );
-  background-size: 400%;
+  background-size: 250%;
   transition: all 0.4s;
 }
 .navigation__link:link span,
@@ -511,7 +511,7 @@ img {
   transform: translateX(1rem);
 }
 .navigation__checkbox:checked ~ .navigation__background {
-  transform: scale(100);
+  transform: scale(150);
 }
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;

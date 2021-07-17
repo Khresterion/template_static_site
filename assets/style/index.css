@@ -61,6 +61,7 @@ section {
     .section1__img {
       background-color: #191a1b;
       width: 40vw;
+      height: 100vh;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 99%);
       padding-top: 1rem;
       text-align: center;
@@ -69,6 +70,10 @@ section {
       /* height: 80vh; */
       transform: translateX(500px);
       opacity: 0;
+    }
+    .section1__img img{
+      margin-top: 5rem;
+height: 80%;
     }
 
 /*********************************************************************************/
@@ -87,7 +92,7 @@ section {
   padding: 15rem 30rem;
   transform: skew(0, -2deg); /* makes the section slanted/skewed*/
   z-index: 40;
-  margin-top: -15rem;
+  margin-top: -10rem;
   
 }
 
@@ -403,11 +408,14 @@ svg {
 /*                                  Media Queries                                */
 /*********************************************************************************/
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #section2 {
     padding: 0 5px;
     margin-top: -1rem;
+    padding: 15rem 15rem;
   }
+
+
 
   #section3 {
     margin-top: -8%;

@@ -32,6 +32,15 @@ function callHead(string $title, string $css)
         <link rel="stylesheet" href=<?= $css ?>>
         <link rel="stylesheet" href="assets/style/queries.css">
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JDFG4PRSR"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-3JDFG4PRSR');
+        </script>
+
     </head>
 
     <body>

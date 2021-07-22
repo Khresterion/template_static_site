@@ -46,6 +46,24 @@ function callFooter()
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+window.axeptioSettings = {
+  clientId: "60f956f3146cc553c8e189a8",
+  cookiesVersion: "logon-base",
+};
+ 
+(function(d, s) {
+  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+  e.async = true; e.src = "//static.axept.io/sdk.js";
+  t.parentNode.insertBefore(e, t);
+})(document, "script");
+void 0 === window._axcb && (window._axcb = []);
+window._axcb.push(function(axeptio) {
+  axeptio.on("cookies:complete", function(choices) {
+    
+  })
+})
+</script>
 
 
     </body>

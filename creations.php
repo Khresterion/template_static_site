@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company - Créations", "assets/style/creations.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 
 <?php callCreations() ?>
 

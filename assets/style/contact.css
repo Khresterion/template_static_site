@@ -167,14 +167,14 @@ section {
 
 #section1 {
   /* background-color: #2a2e39; */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top,
     #0a0a0a,
     #151518,
     #1c1d22,
     #23252d,
     #2a2e39
-  );
+  ); */
 }
 
 .formulaire {
@@ -189,14 +189,14 @@ section {
 #section2 {
   /* background-color: #f9fafb; */
   /* background-color: #2a2e39; */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #0a0a0a,
     #151518,
     #1c1d22,
     #23252d,
     #2a2e39
-  );
+  ); */
 }
 
 .container_section_2 {

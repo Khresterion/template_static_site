@@ -51,7 +51,7 @@ section {
 }
 
 #section1 {
-  background-color: #2a2e39;
+  /* background-color: #2a2e39; */
   padding-bottom: 5em;
 }
 
@@ -159,7 +159,7 @@ p .text-important:hover {
 }
 
 #section3 {
-  background-color: #2a2e39;
+  /* background-color: #2a2e39; */
   padding-bottom: 5em;
 }
 

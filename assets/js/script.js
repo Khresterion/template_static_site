@@ -44,6 +44,7 @@ setInterval(function () {
     .appendTo("#slideshow");
 }, 3000);
 
+
 // CARD ZOOM
 const card = document.querySelector(".card");
 const imageZoom = document.querySelector('.image-zoom')
@@ -146,3 +147,26 @@ const TLHEADER = gsap.timeline();
 TLHEADER
 .from(logo, {y: 100, opacity: 0, duration: 1.25, delay: 0.5})
 .from(h3, {y: 100, opacity: 0})
+
+
+
+gsap.to(".section2__card", {
+  // duration: 1,
+  opacity: 1,
+  delay: 2,
+  y: 0,
+  stagger: 0.2,
+  autoAlpha: 1,
+  rotation: "0rad", 
+  skewX: "0deg",
+  ease: "bounce",
+  scale: 1,
+  scrollTrigger: {
+    trigger: ".card-img-top",
+    markers: false,
+    start: "top 60%",
+    end: "bottom 40%",
+    toggleActions: "restart complete reverse reset",
+    scrub: 5
+  },
+});

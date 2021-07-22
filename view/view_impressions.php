@@ -17,7 +17,7 @@ function callImpressions()
                 </p>
             </div>
             <div class="container text-center">
-                <a href="contact.php" class="button3">Contact</a>
+                <a href="contact.php" class="btn btn--animated btn--white">Contact</a>
             </div>
         </div>
     </section>

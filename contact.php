@@ -5,7 +5,7 @@
 
 
 <?php callHead("LogOn Company - Contact", "assets/style/contact.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 <?php callContact() ?>
 
 <?php

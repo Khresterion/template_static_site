@@ -105,7 +105,7 @@ function callIndex()
         </div>
     </section>
 
-    <!-- Chevron pattern SVG -->
+    <!-- Chevron pattern SVG 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.74 55.15" class="effect-shine">
         <defs>
             <style>
@@ -200,7 +200,12 @@ function callIndex()
                 <polygon class="cls-3" points="361.74 37.47 369.74 21.47 377.74 37.47 369.74 54.47 361.74 37.47" />
             </g>
         </g>
-    </svg>
+    </svg> -->
+
+    <section class="section_ban">
+    <h3>Bannière de séparation effet parallax</h3>
+    <p>Du texte</p>
+</section>
 
     <section id="section4">
 

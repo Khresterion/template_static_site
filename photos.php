@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company - Photos", "assets/style/photos.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 
 <?php callPhotos() ?>
 

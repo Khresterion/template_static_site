@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company - Mentions légales", "assets/style/static.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 
 <?php callLegal() ?>
 

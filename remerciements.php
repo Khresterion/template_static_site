@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company - Remerciements", "assets/style/static.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 
 <?php callThanks() ?>
 

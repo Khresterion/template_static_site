@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company - Impressions", "assets/style/impressions.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 
 <?php callImpressions() ?>
 

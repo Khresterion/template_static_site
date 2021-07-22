@@ -35,14 +35,15 @@ section {
 }
 
 #section1 {
-  background-color: #2a2e39;
+  /* background-color: #2a2e39; */
   padding-bottom: 5em;
 }
 
 #section2 {
   padding: 5em 0;
   clip-path: polygon(0 0, 100% 6%, 100% 94%, 0% 100%);
-  background-color: #d8d9da;
+  /* background-color: #d8d9da; */
+  background-image: url(../images/BGwhite-min.jpg);
 }
 
 p .text-important {
@@ -91,7 +92,7 @@ p .text-important:hover {
 }
 
 #section3 {
-  background-color: #2a2e39;
+  /* background-color: #2a2e39; */
   padding-bottom: 5em;
 }
 
@@ -154,7 +155,7 @@ p .text-important:hover {
 }
 
 #section5 {
-  background-color: #2a2e39;
+  /* background-color: #2a2e39; */
   padding-bottom: 5em;
 }
 

@@ -46,7 +46,7 @@ function callBranding()
                 </p>
             </div>
             <div class="container text-center">
-                <a href="contact.php" class="button3">Contact</a>
+                <a href="contact.php" class="btn btn--animated btn--white">Contact</a>
             </div>
         </div>
     </section>
@@ -54,7 +54,7 @@ function callBranding()
     <section id="section3">
         <div class=" container_section_3" data-aos="fade-up" data-aos-duration="2000">
             <div class=" text-center">
-                <a href="contact.php" class="button3">Demande de devis</a>
+                <a href="contact.php" class="btn btn--animated btn--white">Demande de devis</a>
             </div>
             <div class="eye-txt">
                 <p>Nous vous accompagnons de la <span class="text-important">création</span> à l’animation de vos réseaux sociaux. <br>

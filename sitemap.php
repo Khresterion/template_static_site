@@ -4,7 +4,7 @@
 
 
 <?php callHead("LogOn Company - SiteMap", "assets/style/static.css") ?>
-<?php callNav() ?>
+<?php callNav2() ?>
 
 <?php callSiteMap() ?>
 

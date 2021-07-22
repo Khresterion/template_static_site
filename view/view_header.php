@@ -30,6 +30,7 @@ function callHead(string $title, string $css)
 
         <link rel="stylesheet" href="assets/style/common.css">
         <link rel="stylesheet" href=<?= $css ?>>
+        <link rel="stylesheet" href="assets/style/queries.css">
 
     </head>
 
@@ -41,7 +42,7 @@ function callNav()
 {
     ?>
 
-        <div class="scroll-top-wrapper ">
+       <div class="scroll-top-wrapper ">
             <span class="scroll-top-inner">
                 <i class="fa fa-2x fa-arrow-circle-up"></i>
             </span>
@@ -90,7 +91,7 @@ function callNav2(){
 
 <div class="scroll-top-wrapper ">
             <span class="scroll-top-inner">
-                <i class="fa fa-2x fa-arrow-circle-up"></i>
+                <i class="fas fa-2x fa-angle-up"></i>
             </span>
         </div>
 
@@ -149,7 +150,7 @@ function callHeaderImage()
             <div class="hero">
                 <img src="assets/images/LGNCLogoWhite.png" alt="logo" class="logo--img rellax" data-rellax-speed="-2" >
                 <h1 class="rellax" data-rellax-speed="-3">LogOn compagny expert en communication<h1>        
-                <h3 class="mt-5 rellax" data-rellax-speed="-3" >Expert en communication<br>
+                <h3 class="mt-5 rellax" data-rellax-speed="-3" >Expert en communication<span class="style-logo">.</span><br>
                     Saint-Brieuc <span class="style-logo">X</span> Rennes | Bretagne</h3>
             </div>
         </div>

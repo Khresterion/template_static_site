@@ -44,6 +44,7 @@ function callHead(string $title, string $css)
     </head>
 
     <body>
+    <?php include_once("analyticstracking.php") ?>
 
     <?php }
 
